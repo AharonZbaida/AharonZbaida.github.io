@@ -35,6 +35,8 @@
     </select>
     
     <script>
+        let lissajousInterval; // Declare interval variable
+
         function drawLissajous() {
             const canvas = document.createElement("canvas");
             document.body.appendChild(canvas);
@@ -57,6 +59,9 @@
                 ctx.lineTo(x, y);
             }
             ctx.stroke();
+
+            // Remove the canvas after 1.5 seconds
+            setTimeout(() => canvas.remove(), 1500);
         }
 
         function drawEpicycloid() {
@@ -84,9 +89,12 @@
             localStorage.setItem("selectedAlgo", selectedAlgo);
             document.querySelectorAll("canvas").forEach(canvas => canvas.remove());
             if (selectedAlgo === "epicycloid") {
+                clearInterval(lissajousInterval); // Clear any existing interval
                 drawEpicycloid();
             } else {
-                drawLissajous();
+                clearInterval(lissajousInterval); // Clear any existing interval
+                lissajousInterval = setInterval(drawLissajous, 1500); // Refresh Lissajous every 1.5 seconds
+                drawLissajous(); // Draw immediately
             }
         }
 
