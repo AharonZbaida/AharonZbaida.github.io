@@ -86,12 +86,15 @@
 
         function reloadWithSelection() {
             const selectedAlgo = document.getElementById("selector").value;
+            console.log("Selector changed to:", selectedAlgo); // Debug log
             localStorage.setItem("selectedAlgo", selectedAlgo);
             document.querySelectorAll("canvas").forEach(canvas => canvas.remove());
             if (selectedAlgo === "epicycloid") {
+                console.log("Drawing Epicycloid"); // Debug log
                 clearInterval(lissajousInterval); // Clear any existing interval
                 drawEpicycloid();
             } else {
+                console.log("Drawing Lissajous"); // Debug log
                 clearInterval(lissajousInterval); // Clear any existing interval
                 lissajousInterval = setInterval(drawLissajous, 1500); // Refresh Lissajous every 1.5 seconds
                 drawLissajous(); // Draw immediately
