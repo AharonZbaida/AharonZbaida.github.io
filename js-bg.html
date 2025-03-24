@@ -102,7 +102,7 @@
         }
 
         function loadSelectedAlgo() {
-            const algo = localStorage.getItem("selectedAlgo") || "lissajous";
+            const algo = localStorage.getItem("selectedAlgo") || "epicycloid"; // Set epicycloid as default
             document.getElementById("selector").value = algo;
             reloadWithSelection();
         }
