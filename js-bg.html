@@ -29,7 +29,7 @@
     </style>
 </head>
 <body>
-    <select id="selector" onchange="reloadWithSelection()">
+    <select id="selector">
         <option value="lissajous">Lissajous</option>
         <option value="epicycloid">Epicycloid</option>
     </select>
@@ -80,21 +80,25 @@
         }
 
         function reloadWithSelection() {
-            localStorage.setItem("selectedAlgo", document.getElementById("selector").value);
-            location.reload();
-        }
-
-        function loadSelectedAlgo() {
-            const algo = localStorage.getItem("selectedAlgo") || "lissajous";
-            document.getElementById("selector").value = algo;
-            if (algo === "epicycloid") {
+            const selectedAlgo = document.getElementById("selector").value;
+            localStorage.setItem("selectedAlgo", selectedAlgo);
+            document.querySelectorAll("canvas").forEach(canvas => canvas.remove());
+            if (selectedAlgo === "epicycloid") {
                 drawEpicycloid();
             } else {
                 drawLissajous();
             }
         }
 
+        function loadSelectedAlgo() {
+            const algo = localStorage.getItem("selectedAlgo") || "lissajous";
+            document.getElementById("selector").value = algo;
+            reloadWithSelection();
+        }
+
+        document.getElementById("selector").addEventListener("change", reloadWithSelection);
         loadSelectedAlgo();
     </script>
 </body>
 </html>
+
