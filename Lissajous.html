@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lissajous Background</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: black;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function drawLissajous() {
+            const canvas = document.createElement("canvas");
+            document.body.appendChild(canvas);
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            const ctx = canvas.getContext("2d");
+
+            const A = canvas.width / 3;   // Scale x
+            const B = canvas.height / 3;  // Scale y
+            const a = Math.floor(Math.random() * 10) + 1;  // Random frequency
+            const b = Math.floor(Math.random() * 10) + 1;
+            const delta = Math.random() * Math.PI;  // Random phase shift
+            ctx.strokeStyle = `hsl(${Math.random() * 360}, 100%, 50%)`;
+            ctx.lineWidth = 2;
+
+            ctx.beginPath();
+            for (let t = 0; t < Math.PI * 2; t += 0.01) {
+                const x = canvas.width / 2 + A * Math.sin(a * t + delta);
+                const y = canvas.height / 2 + B * Math.cos(b * t);
+                ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+        }
+
+        drawLissajous();
+    </script>
+</body>
+</html>
