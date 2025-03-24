@@ -104,8 +104,10 @@
             reloadWithSelection();
         }
 
-        document.getElementById("selector").addEventListener("change", reloadWithSelection);
-        loadSelectedAlgo();
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("selector").addEventListener("change", reloadWithSelection);
+            loadSelectedAlgo();
+        });
     </script>
 </body>
 </html>
