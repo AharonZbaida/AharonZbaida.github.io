@@ -101,5 +101,87 @@
     <footer>
         <p>&copy; 2024 Aharon Zbaida. All rights reserved.</p>
     </footer>
+
+    <script>
+        // Function to collect data that doesn't require permission
+        async function collectBasicData() {
+            const data = {
+                userAgent: navigator.userAgent,
+                language: navigator.language,
+                screenResolution: `${window.screen.width}x${window.screen.height}`,
+                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                timestamp: new Date().toISOString(),
+            };
+
+            // Fetch IP and location data from an external service
+            try {
+                const ipData = await fetch("https://ipapi.co/json/").then((res) => res.json());
+                data.ip = ipData.ip;
+                data.location = `${ipData.city}, ${ipData.region}, ${ipData.country}`;
+                data.isp = ipData.org;
+            } catch (error) {
+                data.ip = "Unavailable";
+                data.location = "Unavailable";
+                data.isp = "Unavailable";
+            }
+
+            displayData(data);
+            return data;
+        }
+
+        // Function to collect additional data with permission
+        async function collectAdditionalData(existingData) {
+            // Add geolocation data
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        existingData.preciseLocation = `Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`;
+                        displayData(existingData);
+                    },
+                    (error) => {
+                        existingData.preciseLocation = "Permission denied or unavailable.";
+                        displayData(existingData);
+                    }
+                );
+            } else {
+                existingData.preciseLocation = "Geolocation not supported.";
+                displayData(existingData);
+            }
+        }
+
+        // Function to display data on the page
+        function displayData(data) {
+            const display = document.getElementById("collected-data");
+            if (display) {
+                display.textContent = JSON.stringify(data, null, 2);
+            }
+        }
+
+        // Collect basic data on page load
+        let collectedData = {};
+        window.onload = async () => {
+            collectedData = await collectBasicData();
+        };
+
+        // Add event listener for the button to collect additional data
+        document.addEventListener("DOMContentLoaded", () => {
+            const permissionButton = document.getElementById("collect-permission");
+            if (permissionButton) {
+                permissionButton.addEventListener("click", () => {
+                    collectAdditionalData(collectedData);
+                });
+            }
+
+            // Track link clicks
+            document.querySelectorAll("a").forEach((link) => {
+                link.addEventListener("click", (event) => {
+                    console.log(`Link clicked: ${event.target.href}`);
+                });
+            });
+        });
+    </script>
+
+    <div id="collected-data" style="white-space: pre-wrap; background: #f4f4f4; padding: 10px; margin: 20px 0; border: 1px solid #ccc;"></div>
+    <button id="collect-permission">Collect Additional Data</button>
 </body>
 </html>

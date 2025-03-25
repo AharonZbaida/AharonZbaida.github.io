@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aharon Zbaida - Visitor Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aharon Zbaida</h1>
+        <p>Full-Stack - Machine Learning Engineer</p>
+        <nav>
+            <ul>
+                <li><a href="https://docs.google.com/document/d/1cLgQdocMoCLeZot3mTsObnjwhP06Ii4MsgXrJOktkYM/edit?usp=sharing" target="_blank" rel="noopener">View My Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Projects Portfolio</h2>
+        <section id="projects">
+            <!-- ...existing project content... -->
+        </section>
+
+        <section id="visitor-tracking">
+            <h2>Visitor Tracking</h2>
+            <div id="visitor-count" style="font-size: 20px; margin: 10px;">Loading visitor count...</div>
+            <div id="map"></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:AharonZbaida@gmail.com">AharonZbaida@gmail.com</a></p>
+            <p>Phone: <a href="tel:+13026486421">+1 (302) 648-2641</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/aharonzbaida" target="_blank">linkedin.com/in/aharonzbaida</a></p>
+            <p>GitHub: <a href="https://github.com/roni762583" target="_blank">github.com/roni762583</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aharon Zbaida. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_AUTH_DOMAIN",
+            databaseURL: "YOUR_DATABASE_URL",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_STORAGE_BUCKET",
+            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+            appId: "YOUR_APP_ID"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+
+        // Initialize map
+        const map = L.map('map').setView([20, 0], 2); // Centered globally
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Function to track visitor
+        async function trackVisitor() {
+            const data = {
+                userAgent: navigator.userAgent,
+                language: navigator.language,
+                screenResolution: `${window.screen.width}x${window.screen.height}`,
+                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                timestamp: new Date().toISOString(),
+            };
+
+            // Fetch IP and location data
+            try {
+                const ipData = await fetch("https://ipapi.co/json/").then((res) => res.json());
+                data.ip = ipData.ip;
+                data.location = `${ipData.city}, ${ipData.region}, ${ipData.country}`;
+                data.latitude = ipData.latitude;
+                data.longitude = ipData.longitude;
+                data.isp = ipData.org;
+                data.asn = ipData.asn;
+                data.security = {
+                    is_vpn: ipData.security ? ipData.security.is_vpn : false,
+                    is_proxy: ipData.security ? ipData.security.is_proxy : false,
+                    is_tor: ipData.security ? ipData.security.is_tor : false,
+                };
+                data.currency = ipData.currency;
+                data.language = ipData.languages;
+            } catch (error) {
+                data.ip = "Unavailable";
+                data.location = "Unavailable";
+                data.latitude = null;
+                data.longitude = null;
+                data.isp = "Unavailable";
+                data.asn = "Unavailable";
+                data.security = { is_vpn: false, is_proxy: false, is_tor: false };
+                data.currency = "Unavailable";
+                data.language = "Unavailable";
+            }
+
+            // Display data on the page
+            const display = document.getElementById("visitor-data");
+            if (display) {
+                display.textContent = JSON.stringify(data, null, 2);
+            }
+
+            // Save to Firebase
+            const visitorRef = firebase.database().ref('visitors');
+            visitorRef.push(data);
+        }
+
+        // Add a container to display visitor data
+        const visitorDataContainer = document.createElement('pre');
+        visitorDataContainer.id = 'visitor-data';
+        visitorDataContainer.style = 'white-space: pre-wrap; background: #f4f4f4; padding: 10px; margin: 20px 0; border: 1px solid #ccc;';
+        document.body.insertBefore(visitorDataContainer, document.getElementById('map'));
+
+        // Instructions for getting an API key
+        /*
+        To get an API key for ipapi:
+        1. Visit https://ipapi.co/signup/ and create a free account.
+        2. Once registered, log in to your account.
+        3. Navigate to the API key section in your dashboard.
+        4. Copy the API key and replace the URL in the fetch call with:
+           `https://ipapi.co/json/?key=YOUR_API_KEY`
+        5. Replace `YOUR_API_KEY` with your actual API key.
+        */
+
+        // Display visitor count
+        const visitorRef = firebase.database().ref('visitors');
+        visitorRef.on('value', (snapshot) => {
+            const visitorCount = snapshot.size || Object.keys(snapshot.val() || {}).length;
+            document.getElementById('visitor-count').textContent = `Total Visitors: ${visitorCount}`;
+        });
+
+        // Track visitor on page load
+        window.onload = trackVisitor;
+    </script>
+</body>
+</html>
