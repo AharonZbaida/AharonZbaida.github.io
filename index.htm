@@ -22,6 +22,60 @@
     <main>
         <h2>Projects Portfolio</h2>
         <section id="projects">
+            <article class="project" style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; line-height:1.6; color: #333;">
+              <h2 style="border-bottom: 2px solid #ddd; padding-bottom: 4px;">🚀 MuZero Trading Pipeline • Jan–Jul 2025</h2>
+              
+              <section>
+                <h3 style="margin-top: 20px; color: #555;">🧠 Overview</h3>
+                <p>
+                  Built a production‑ready MuZero‑based trading system capable of processing <strong>7,876 ticks/sec</strong>, calculating <strong>264 technical indicators</strong>, and delivering <strong>&lt;100 ms</strong> latency via a real‑time dual dashboard.
+                </p>
+              </section>
+              
+              <section>
+                <h3 style="margin-top: 20px; color: #555;">⏱ Development Timeline</h3>
+                <ul style="padding-left: 20px;">
+                  <li><strong>Jan–Feb:</strong> Core MuZero prototype, Kafka ingestion, basic indicator calculations.</li>
+                  <li><strong>Mar–Apr:</strong> Episode collection, reward logic, trade execution implemented.</li>
+                  <li><strong>May:</strong> Terminal & WebSocket dashboards added; expanded features; production hardening.</li>
+                  <li><strong>Jun:</strong> LightZero C++ MCTS integrated; streaming migrated to Redpanda & SQLite; speed optimized.</li>
+                  <li><strong>Jul:</strong> Released V5 with single‑command deployment; removed pandas/pickle; optimized pipeline with IoTDB & SQLite‑LZ4.</li>
+                </ul>
+              </section>
+              
+              <section>
+                <h3 style="margin-top: 20px; color: #555;">📈 Measured Outcomes</h3>
+                <ul style="padding-left: 20px;">
+                  <li><strong>Throughput:</strong> 245 → 7,876 ticks/sec (10× gain)</li>
+                  <li><strong>Memory:</strong> 8.2 GB → 3.2 GB (60% reduction)</li>
+                  <li><strong>Training time:</strong> 3× faster</li>
+                  <li><strong>Monitoring latency:</strong> <100 ms via WebSocket</li>
+                </ul>
+              </section>
+              
+              <section>
+                <h3 style="margin-top: 20px; color: #555;">🔧 Core Contributions</h3>
+                <ul style="padding-left: 20px;">
+                  <li>Engineered a pipeline with <strong>264 multi‑timeframe indicators</strong> (tick–D1).</li>
+                  <li>Designed V5 model: lightweight MLP with optimized C++ MCTS integration.</li>
+                  <li>Built robust instrumentation: dual dashboards, SQLite logging, auto‑resume, cleanup.</li>
+                  <li>Eliminated technical debt—streamlined all components to production standard.</li>
+                </ul>
+              </section>
+              
+              <section>
+                <h3 style="margin-top: 20px; color: #555;">🎯 Development Principles</h3>
+                <ul style="padding-left: 20px;">
+                  <li>Prioritized <strong>simplicity and clarity</strong>; avoided over‑engineering.</li>
+                  <li>Followed <strong>measure‑before‑optimize</strong> approach; profiling guided improvements.</li>
+                  <li>Maintained a <strong>production‑first mindset</strong>; built with reliability and observability in focus.</li>
+                </ul>
+              </section>
+              
+              <p style="margin-top: 20px;">
+                This project reflects a complete journey from prototype to production, showcasing performance gains, reliable monitoring, and a clean codebase—an example of disciplined, solo engineering at scale.
+              </p>
+            </article>
             <article class="project">
                 <h3>OANDA NEAT Trading Algorithm</h3>
                 <p><strong>Role:</strong> Self-Directed Project</p>
@@ -64,9 +118,6 @@
                 <p><strong>Technologies Used:</strong> FIX, machine learning, time series analysis, TradeStation, MetaTrader, cTrader/cAlgo.</p>
                 <p><strong>Code Repository:</strong> <a href="https://github.com/roni762583/anitrade_contributed_codebase" target="_blank">Anitrade Contributed Codebase</a></p>
             </article>
-            
-
-            <!-- Add more project entries as needed -->
         </section>
 
         <section id="bible-data-science">
