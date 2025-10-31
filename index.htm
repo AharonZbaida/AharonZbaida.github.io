@@ -23,6 +23,68 @@
         <h2>Projects Portfolio</h2>
         <section id="projects">
             <article class="project" style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; line-height:1.6; color: #333;">
+                <h2 style="border-bottom: 2px solid #ddd; padding-bottom: 4px;">🔬 FX Market Edge Prediction • Machine Learning Research</h2>
+                
+                <section>
+                    <h3 style="margin-top: 20px; color: #555;">🧠 Project Overview</h3>
+                    <p>
+                        Comprehensive investigation into USD pip movement predictability using hybrid <strong>Temporal Convolutional Autoencoders (TCNAE)</strong> 
+                        with <strong>LightGBM</strong> across 3 years of hourly data from 24 major currency pairs. Despite sophisticated methodology, 
+                        <strong>no statistically significant market edge was discovered</strong>, providing valuable negative evidence supporting 
+                        the efficient market hypothesis.
+                    </p>
+                </section>
+                
+                <section>
+                    <h3 style="margin-top: 20px; color: #555;">🏗️ Technical Architecture</h3>
+                    <ul style="padding-left: 20px;">
+                        <li><strong>TCNAE Model:</strong> 537K-parameter temporal convolutional autoencoder compressing 4-hour sequences into 120-dimensional representations</li>
+                        <li><strong>LightGBM Pipeline:</strong> 48 specialized gradient boosting models (2 per instrument) for pip magnitude and direction prediction</li>
+                        <li><strong>Cross-Instrument Context:</strong> 24×5 feature tensor enabling information sharing across currency pairs</li>
+                        <li><strong>Production Integration:</strong> OANDA v20 API, Docker containerization, real-time prediction pipeline</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3 style="margin-top: 20px; color: #555;">📊 Dataset & Results</h3>
+                    <ul style="padding-left: 20px;">
+                        <li><strong>Scale:</strong> 224,955 samples across 24 currency pairs over 3 years</li>
+                        <li><strong>Performance:</strong> 50.1% direction accuracy (random baseline), 0.02% average correlation</li>
+                        <li><strong>Methodology:</strong> Rigorous temporal validation, aggressive quality filtering (50% retention)</li>
+                        <li><strong>Innovation:</strong> Dual model architecture, latent caching system (70% computational overhead reduction)</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3 style="margin-top: 20px; color: #555;">🎯 Scientific Contribution</h3>
+                    <p>
+                        This study provides crucial <strong>negative evidence</strong> using modern ML techniques, serving as a methodological 
+                        template for rigorous financial prediction research. The honest reporting of unsuccessful edge discovery attempts 
+                        contributes valuable knowledge validating market efficiency at hourly timeframes.
+                    </p>
+                </section>
+                
+                <section>
+                    <h3 style="margin-top: 20px; color: #555;">🛠️ Technology Stack</h3>
+                    <p style="margin: 10px 0;">
+                        <span style="background: #667eea; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; margin-right: 8px;">Python</span>
+                        <span style="background: #667eea; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; margin-right: 8px;">PyTorch</span>
+                        <span style="background: #667eea; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; margin-right: 8px;">LightGBM</span>
+                        <span style="background: #667eea; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; margin-right: 8px;">OANDA v20 API</span>
+                        <span style="background: #667eea; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; margin-right: 8px;">Docker</span>
+                        <span style="background: #667eea; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.85em; margin-right: 8px;">Financial ML</span>
+                    </p>
+                </section>
+                
+                <p style="margin-top: 20px;">
+                    <strong>Repository Features:</strong> Production-ready code, comprehensive documentation, experimental results, 
+                    trained models, visualization suite, and Docker deployment configuration.
+                </p>
+                <p><strong>Project Details:</strong> <a href="fx-market-edge-prediction.html">View Detailed Project Page</a></p>
+                <p><strong>Code Repository:</strong> <a href="https://github.com/roni762583/edgefindingexperiment" target="_blank">FX Market Edge Prediction Research</a></p>
+            </article>
+            
+            <article class="project" style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; line-height:1.6; color: #333;">
               <h2 style="border-bottom: 2px solid #ddd; padding-bottom: 4px;">🚀 MuZero Trading Pipeline • Jan–Jul 2025</h2>
               
               <section>
@@ -76,6 +138,7 @@
                 This project reflects a complete journey from prototype to production, showcasing performance gains, reliable monitoring, and a clean codebase—an example of disciplined, solo engineering at scale.
               </p>
             </article>
+            
             <article class="project">
                 <h3>OANDA NEAT Trading Algorithm</h3>
                 <p><strong>Role:</strong> Self-Directed Project</p>
