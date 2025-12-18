@@ -18,7 +18,7 @@ Technical problem-solver with 20+ years applying engineering principles across s
 
 ### Physical Systems & Laboratory Science
 - **Materials & Chemistry:** Wet chemistry, IR spectroscopy, thermogravimetric analysis (TGA), differential scanning calorimetry (DSC)
-- **Mechanical Engineering:** Production tooling design, pyrotechnic actuators, energetic device characterization
+- **Mechanical Engineering:** Production tooling design, precision actuators, specialized device characterization
 - **Biomedical Engineering:** Medical device development, tissue modeling, cardiac biomechanics, signal processing
 - **Laboratory Skills:** Data acquisition systems, experimental design, material characterization, failure analysis
 
@@ -118,13 +118,13 @@ Led 8-person development team plus external consultants through critical platfor
 
 ### Project Engineer | Cartridge Actuated Devices | Fairfield, NJ | 2003–2004
 
-Specialized engineering role developing pyrotechnic actuators and energetic devices for aerospace, military, and oilfield applications.
+Specialized engineering role developing precision actuators and mechanical systems for aerospace and industrial applications.
 
 - Spearheaded adoption of data acquisition system for product performance characterization and quality testing
-- Designed production tooling and assemblies for energetic devices
+- Designed production tooling and assemblies for specialized actuation systems
 - Translated contracts and safety standards into operating procedures for manufacturing and testing
 - Collaborated with testing lab, QA, and production teams to implement safe manufacturing protocols
-- Designed specialized tooling for pyrotechnic actuator production and testing
+- Designed specialized tooling for precision actuator production and testing
 
 ### Operations Management Consultant | Gregg International / Gregg Uganda Tours | Uganda | Jul–Oct 2021
 
