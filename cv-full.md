@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Multi-disciplinary engineer with 20+ years of experience building systems across machine learning, construction, materials science, and biomedical engineering. Demonstrated ability to lead technical projects from conception to deployment, manage large teams, and deliver complex systems in regulated environments. Experience spans production ML pipelines for financial data, large-scale construction project management (200+ workers, $2M+ budgets), chemistry lab operations, and medical device development.
+Multi-disciplinary engineer with 20+ years of experience building systems across machine learning, construction, materials science, and biomedical engineering. Demonstrated ability to lead technical projects from conception to deployment, manage teams, and deliver complex systems in regulated environments. Experience spans production ML pipelines for financial data, small crew residential and commercial general construction and maintenance under tight budget constraints, chemistry lab operations, and medical device development.
 
 Available for consulting, contract work, partnerships, and full-time opportunities in ML systems, construction technology, and technical project leadership—both in the US and internationally (Israel, Africa, Caribbean).
 
@@ -24,10 +24,10 @@ Available for consulting, contract work, partnerships, and full-time opportuniti
 - **Domain:** Financial risk modeling, algorithmic trading, portfolio analysis, quantitative finance
 
 ### Construction & Project Management
-- **Project Leadership:** Teams of 200+ workers, subcontractor coordination, multi-phase scheduling
-- **Budget Management:** $500K–$2M projects, cost estimation, procurement, financial controls
+- **Project Leadership:** Small crew management, subcontractor coordination, multi-phase scheduling
+- **Budget Management:** Cost estimation, procurement, financial controls under tight constraints
 - **Technical:** Blueprint reading, structural systems, MEP integration, building codes, regulatory compliance
-- **Specializations:** Residential construction, commercial renovations, design-build coordination
+- **Specializations:** Residential construction, commercial maintenance and renovations
 
 ### Materials Science & Chemistry
 - **Lab Operations:** Chemical synthesis, analytical instrumentation (GC-MS, HPLC, spectroscopy), quality control
@@ -72,23 +72,22 @@ Led development of quantitative trading platform with integrated ML and event st
 
 ### Construction Project Manager | Various Locations | 2008–2020
 
-Managed large-scale residential and commercial construction projects with full P&L responsibility.
+Managed residential and commercial construction projects and maintenance with hands-on involvement.
 
 **Project Scope:**
-- Multi-year residential development projects ($500K–$2M budgets)
+- Residential construction and commercial maintenance projects under tight budget constraints
 - Commercial renovations and tenant improvements
-- Team leadership: 200+ workers (carpenters, electricians, plumbers, masons, general laborers)
-- Subcontractor coordination across specialized trades
+- Small crew management with direct subcontractor coordination
 - Quality control, safety compliance, regulatory approvals
 
 **Key Achievements:**
-- Delivered projects on-time and on-budget with zero safety incidents
-- Managed complex scheduling across multiple concurrent phases (foundation, framing, MEP, finishing)
+- Delivered projects on-time and within budget with zero safety incidents
+- Managed scheduling across concurrent phases (foundation, framing, MEP, finishing)
 - Negotiated and managed subcontractor relationships maintaining quality standards
 - Ensured compliance with building codes, permits, inspection requirements, and ADA standards
-- Developed standardized quality control processes adopted across multiple projects
+- Developed practical quality control processes
 
-**Technical Skills:** Blueprint reading, structural assessment, MEP systems integration, cost estimation, scheduling software, building code compliance
+**Technical Skills:** Blueprint reading, structural assessment, MEP systems integration, cost estimation, scheduling, building code compliance
 
 ### Programming Manager | Concord Wealth Management | Los Angeles, CA | 2007–2008
 
@@ -193,7 +192,7 @@ Israeli traffic violation consulting website with bilingual interface (Hebrew/En
 **Algorithmic Trading:** Strategy development, execution systems, market microstructure, performance attribution
 
 ### Construction & Engineering
-**Project Management:** Scheduling, budgeting, procurement, quality control, safety compliance
+**Project Management:** Scheduling, cost control, procurement, quality control, safety compliance
 **Technical:** Blueprint reading, structural systems, MEP coordination, building codes, ADA compliance
 **Software:** CAD, project management software, estimation tools
 

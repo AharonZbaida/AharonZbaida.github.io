@@ -8,7 +8,7 @@ Over 15 years, I've worked as an early or sole ML contributor delivering models 
 
 Recent work includes reinforcement learning systems processing 7,800+ ticks/second, statistical validation frameworks for long-horizon financial outcomes, and research on market microstructure with honest reporting of null results. I value reproducibility, statistical rigor, and systems that operate reliably in production.
 
-My background also spans construction project management (200+ workers, multi-million dollar budgets), materials science, and biomedical engineering—experience that informs how I approach complex technical projects, team coordination, and delivery under constraints.
+My background also spans construction project management (small crew residential and commercial general construction and maintenance, under tight budget constraints), materials science, and biomedical engineering—experience that informs how I approach complex technical projects, team coordination, and delivery under constraints.
 
 Currently exploring opportunities in financial ML, credit risk modeling, and production ML systems. Open to consulting, contract work, and partnerships in ML systems, construction technology, and technical leadership—both in the US and internationally.
 
@@ -112,13 +112,13 @@ Technologies: Python, Kafka, machine learning, Docker, AWS
 **Title on LinkedIn:** Construction Project Manager
 
 **Description:**
-Managed large-scale residential and commercial construction projects with full P&L responsibility.
+Managed residential and commercial construction and maintenance projects with hands-on involvement.
 
-• Led teams of 200+ workers across specialized trades
-• Managed budgets ($500K–$2M), scheduling, quality control, and regulatory compliance
-• Delivered projects on-time and on-budget with zero safety incidents
+• Small crew management with direct subcontractor coordination
+• Cost control, scheduling, quality control, and regulatory compliance under tight budget constraints
+• Delivered projects on-time and within budget with zero safety incidents
 
-Skills: Project management, team leadership, budget control, regulatory compliance
+Skills: Project management, small crew leadership, cost control, regulatory compliance
 
 ---
 
