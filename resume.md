@@ -74,12 +74,6 @@ Focus on production-grade machine learning systems for algorithmic trading and q
 - Result: 50.1% direction accuracy - honest reporting of no statistically significant edge found
 - Technologies: PyTorch, LightGBM, OANDA v20 API, Docker
 
-**Bible Codes Project (Open Source)**
-- Created browser-based ELS (equidistant letter sequences) search engine using client-side JavaScript
-- Implemented Boyer-Moore and Knuth-Morris-Pratt algorithms with prehashing for phrase optimization
-- Built Progressive Web App with offline capability via service workers
-- Project: [bible-codes.github.io](https://bible-codes.github.io/)
-
 ### Founder & CTO | Peoples' FinTech LLC | Los Angeles, CA | 2017–2020
 
 Founded and led development of quantitative trading platform integrating machine learning and event stream processing.
@@ -125,14 +119,6 @@ Specialized engineering role developing precision actuators and mechanical syste
 - Translated contracts and safety standards into operating procedures for manufacturing and testing
 - Collaborated with testing lab, QA, and production teams to implement safe manufacturing protocols
 - Designed specialized tooling for precision actuator production and testing
-
-### Operations Management Consultant | Gregg International / Gregg Uganda Tours | Uganda | Jul–Oct 2021
-
-Interim Chief Operations Officer for bicycle tourism company at Dubai Tourism Conference.
-
-- Developed comprehensive web presence strategy including SEO and content generation plan
-- Consulted on operations from local infrastructure development to international marketing
-- Represented company at Uganda Tourism Board conference in Dubai
 
 ### Additional Roles
 
@@ -192,7 +178,6 @@ Zbaida, Aharon. **"Super Smoother Filter."** *Trading System Design: Blog For Sh
 
 ## Open Source Projects
 
-- **Bible Codes Project:** [bible-codes.github.io](https://bible-codes.github.io/) | [GitHub Repository](https://github.com/bible-codes/bible-codes.github.io)
 - **FX Market Edge Prediction:** [GitHub Repository](https://github.com/roni762583/edgefindingexperiment)
 - **OANDA NEAT Trading Algorithm:** [GitHub Repository](https://github.com/roni762583/oanda_neat/)
 - **Anitrade Contributed Codebase:** [GitHub Repository](https://github.com/roni762583/anitrade_contributed_codebase)
