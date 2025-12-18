@@ -3,166 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aharon Zbaida - Multi-disciplinary engineer specializing in machine learning systems, construction management, and physical engineering solutions.">
+    <meta name="description" content="Aharon Zbaida - Senior Machine Learning Engineer specializing in financial risk and decision systems.">
     <title>Aharon Zbaida</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Aharon Zbaida</h1>
-        <p>Multi-Disciplinary Engineer</p>
-        <p style="font-size: 0.9rem; color: #767676; margin-top: -16px;">ML Systems · Physical Systems · Project Leadership</p>
+        <p>Senior Machine Learning Engineer – Financial Risk & Decision Systems</p>
         <nav>
             <ul>
-                <li><a href="resume.pdf" class="resume-link" download>Download Resume (PDF)</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" class="resume-link" download>Resume (PDF)</a></li>
+                <li><a href="https://linkedin.com/in/aharonzbaida" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/roni762583" target="_blank">GitHub</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="about">
-            <h2>Building Systems That Work in the Real World</h2>
-            <p>I solve complex technical problems by bridging software and physical systems. With 20+ years across machine learning, construction, materials science, and biomedical engineering, I bring a rare combination: deep computational expertise and hands-on experience with how things actually work.</p>
-            <p>Whether optimizing ML pipelines to process 7,876 ticks/sec, developing medical devices in chemistry labs, or managing construction projects, I focus on practical solutions that deliver measurable results.</p>
+            <p>I build and operate production ML models on structured financial data to support credit, pricing, and high-stakes decisioning in regulated environments. Focused on tabular modeling, rigorous evaluation, and systems that ship.</p>
         </section>
 
-        <section id="capabilities">
-            <h2>What I Do</h2>
-            <div class="capability-grid">
-                <div>
-                    <h4>Machine Learning Engineering</h4>
-                    <p>Production ML systems, reinforcement learning, time-series prediction, financial modeling. From prototyping to deployment at scale.</p>
-                </div>
-                <div>
-                    <h4>Physical Systems Integration</h4>
-                    <p>Materials characterization, laboratory R&D, medical device development, construction project management. Computational methods meet real-world constraints.</p>
-                </div>
-                <div>
-                    <h4>Technical Leadership</h4>
-                    <p>Led teams, managed contractors, founded startup (Peoples' FinTech). Translate complex requirements into deliverable solutions.</p>
-                </div>
-            </div>
-        </section>
+        <section id="selected-work">
+            <h2>Selected ML Systems</h2>
 
-        <section id="work-with-me">
-            <h2>Open to Interesting Opportunities</h2>
-            <p>I'm currently exploring new challenges where deep technical expertise meets real-world impact. Most interested in roles and projects where the combination of ML engineering and physical systems knowledge creates genuine value.</p>
-            <p><strong>What I'm looking for:</strong> ML engineering roles (construction tech, robotics, materials science), technical solutions architecture, or contract work on complex system integration projects. Also open to technical partnerships with companies building at the intersection of software and physical systems.</p>
-            <p>If you're working on something challenging and think my background might be a good fit, I'd enjoy hearing about it. <a href="mailto:roni762583@gmail.com">Email me</a> or <a href="resume.pdf" download>download my resume</a>.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Selected Projects</h2>
-
-            <article class="project">
-                <h3>MuZero Trading Pipeline</h3>
-                <p><strong>Timeline:</strong> January–July 2025</p>
-                <p>Built a production-ready reinforcement learning trading system processing 7,876 ticks/sec with sub-100ms latency. Engineered pipeline with 264 multi-timeframe technical indicators across tick-to-daily granularity.</p>
-                <h4>Key Outcomes</h4>
-                <ul>
-                    <li>10× throughput improvement (245 → 7,876 ticks/sec)</li>
-                    <li>60% memory reduction (8.2GB → 3.2GB)</li>
-                    <li>3× faster training time</li>
-                    <li>Real-time monitoring via dual dashboard (terminal + WebSocket)</li>
-                </ul>
+            <article class="ml-system">
+                <h3>Financial ML Pipeline</h3>
+                <p><strong>Problem:</strong> Financial models require rigorous temporal validation to avoid lookahead bias and account for regime shifts in non-stationary markets.</p>
+                <p><strong>Approach:</strong> Built end-to-end pipeline with walk-forward splits, regime-aware cohort analysis, and comprehensive experiment tracking. Implemented versioning for data, code, and model artifacts to ensure reproducibility.</p>
+                <p><strong>Outcome:</strong> Production pipeline enabling valid out-of-time performance assessment for trading strategies. Framework prevents common pitfalls in financial ML including data leakage and overfitting to historical regimes.</p>
                 <div class="tech-stack">
-                    <span class="tech-tag">PyTorch</span>
-                    <span class="tech-tag">C++ MCTS</span>
-                    <span class="tech-tag">Redpanda</span>
-                    <span class="tech-tag">SQLite</span>
-                    <span class="tech-tag">IoTDB</span>
-                    <span class="tech-tag">Docker</span>
-                </div>
-            </article>
-
-            <article class="project">
-                <h3>FX Market Edge Prediction Research</h3>
-                <p>Investigated USD pip movement predictability using hybrid Temporal Convolutional Autoencoder with LightGBM across 3 years of hourly data from 24 currency pairs. Result: 50.1% direction accuracy—no statistically significant edge found.</p>
-                <h4>Technical Details</h4>
-                <ul>
-                    <li>537K-parameter TCNAE model + 48 specialized LightGBM models</li>
-                    <li>224,955 samples across 24 currency pairs</li>
-                    <li>Cross-instrument feature sharing with 24×5 tensor architecture</li>
-                    <li>Rigorous temporal validation with 50% quality retention rate</li>
-                </ul>
-                <p><a href="https://github.com/roni762583/edgefindingexperiment" target="_blank">GitHub repository</a></p>
-                <div class="tech-stack">
-                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">XGBoost</span>
                     <span class="tech-tag">LightGBM</span>
-                    <span class="tech-tag">OANDA v20 API</span>
                     <span class="tech-tag">Docker</span>
                 </div>
             </article>
 
-            <article class="project">
-                <h3>Medical Device Development</h3>
-                <p><strong>Organization:</strong> Daren Labs Scientific, Israel (2014–2016)</p>
-                <p>Developed manufacturing method for physical models of diseased heart valve tissue with matched stress-strain curves for medical device testing. Created indicator strips and manufacturing processes for personal hygiene products. Conducted R&D across dental restorative materials, product failure analysis, and drug delivery systems.</p>
-                <h4>Technical Capabilities</h4>
-                <ul>
-                    <li>Wet chemistry, IR spectroscopy, TGA, DSC</li>
-                    <li>Data acquisition systems and experimental design</li>
-                    <li>Material characterization and failure analysis</li>
-                    <li>IT infrastructure management for 8 laboratories, 12+ tenants</li>
-                </ul>
-            </article>
-
-            <article class="project">
-                <h3>OANDA NEAT Trading Algorithm</h3>
-                <p>Trading algorithm utilizing NeuroEvolution of Augmenting Topologies (NEAT) for forex market decision-making. Genetic algorithm evolves neural network architectures dynamically, increasing complexity only as needed to reach goal behaviors. Reward function balances profitability, risk management, and trade frequency optimization.</p>
-                <p><a href="https://github.com/roni762583/oanda_neat/" target="_blank">GitHub repository</a></p>
+            <article class="ml-system">
+                <h3>Statistical Validation Framework</h3>
+                <p><strong>Problem:</strong> Standard cross-validation underestimates variance in financial predictions with autocorrelated outcomes and non-IID data.</p>
+                <p><strong>Approach:</strong> Developed bootstrap and permutation testing methods adapted for time-series. Implemented confidence interval estimation and robustness metrics under different market regimes.</p>
+                <p><strong>Outcome:</strong> Framework enabling statistically sound model selection and honest performance reporting. Prevents overconfidence in backtest results and supports regulatory review.</p>
                 <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">NEAT</span>
-                    <span class="tech-tag">Genetic Algorithms</span>
-                    <span class="tech-tag">OANDA API</span>
+                    <span class="tech-tag">Statistical Inference</span>
+                    <span class="tech-tag">Time-Series</span>
+                    <span class="tech-tag">Bootstrap Methods</span>
                 </div>
             </article>
 
-            <article class="project">
-                <h3>Peoples' FinTech Expectancy Calculator</h3>
-                <p><strong>Role:</strong> Founder & CTO, Peoples' FinTech (2017–2020)</p>
-                <p>Developed web-based tool for evaluating long-term profitability of trading strategies based on Dr. Van Tharp's expectancy framework. Provides expected return per dollar risked with visual representation of moving window expectancy for performance stability assessment.</p>
-                <p><a href="https://roni762583.github.io/peoplesfintech.github.io/ec.html" target="_blank">Live tool</a> · <a href="https://peoplesfintech.wixsite.com/tradingsystemdesignb/post/expectancy-calculator" target="_blank">Article: Critical Importance of Expectancy</a></p>
+            <article class="ml-system">
+                <h3>Feature Engineering Service</h3>
+                <p><strong>Problem:</strong> Feature drift between training, backtesting, and live deployment creates silent model degradation that compounds over time.</p>
+                <p><strong>Approach:</strong> Created configuration-driven feature computation layer with versioning, point-in-time correctness guarantees, and support for both historical replay and streaming data.</p>
+                <p><strong>Outcome:</strong> Eliminates lookahead bias and ensures reproducibility across model lifecycle. Single source of truth for features reduces debugging time and prevents production incidents.</p>
                 <div class="tech-stack">
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">Data Visualization</span>
-                    <span class="tech-tag">Financial Metrics</span>
-                </div>
-            </article>
-
-            <article class="project">
-                <h3>Habirokrator</h3>
-                <p><strong>Role:</strong> Web Developer (Client Project)</p>
-                <p>Designed and developed website offering consulting services for navigating Israel's traffic violation judiciary and bureaucracy. Provides resources for disputing traffic tickets, parking fines, toll road information, and speed camera locations. Integrated WhatsApp for client communication.</p>
-                <p><a href="https://habirokrator.github.io" target="_blank">Live website</a></p>
-                <div class="tech-stack">
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">W3.CSS</span>
-                </div>
-            </article>
-
-            <article class="project">
-                <h3>Anitrade Trading Systems</h3>
-                <p><strong>Organization:</strong> Anitani Solutions LLC (2004–2017)</p>
-                <p>Developed algorithmic trading systems including technical indicators, trading robots, and expert advisors for MetaTrader platform. Created C# automated trading applications for cTrader with Python neural network integration. Range-breakout strategy achieved 50% return over 2.5 months in live trading (619% annualized).</p>
-                <p><a href="https://github.com/roni762583/anitrade_contributed_codebase" target="_blank">GitHub repository</a></p>
-                <div class="tech-stack">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">MetaTrader</span>
-                    <span class="tech-tag">cTrader</span>
-                    <span class="tech-tag">FIX Protocol</span>
+                    <span class="tech-tag">Feature Engineering</span>
+                    <span class="tech-tag">Data Pipelines</span>
+                    <span class="tech-tag">Production ML</span>
                 </div>
             </article>
         </section>
 
         <section id="experience">
             <h2>Background</h2>
-            <p>Professional experience across software engineering, construction management, materials science, and biomedical engineering. Held positions at Peoples' FinTech (Founder & CTO), Daren Labs Scientific (Project Engineer), Concord Wealth Management (Programming Manager), and Cartridge Actuated Devices (Project Engineer). Operated dual-track consulting practice in software development and construction project management for 18 years.</p>
+            <p><strong>Independent ML Engineer / Researcher</strong> (2020–Present): Production ML systems for algorithmic trading and quantitative finance. Built reinforcement learning pipeline processing 7,876 ticks/sec; conducted research on market predictability with honest reporting of null results.</p>
+            <p><strong>Founder & CTO, Peoples' FinTech</strong> (2017–2020): Led development of quantitative trading platform integrating ML models with event-driven architecture.</p>
+            <p><strong>Earlier roles:</strong> Programming Manager at Concord Wealth Management (2007–2008); Engineering and modeling work at Daren Labs Scientific and Anitani Solutions (2003–2017).</p>
             <p><a href="resume.pdf" download>Full resume (PDF)</a></p>
         </section>
 

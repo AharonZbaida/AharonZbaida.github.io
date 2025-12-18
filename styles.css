@@ -165,25 +165,29 @@ section h2 {
     text-decoration-color: #1a1a1a;
 }
 
-/* Project Cards */
-.project {
+/* Project Cards & ML Systems */
+.project,
+.ml-system {
     margin-bottom: 48px;
     padding-bottom: 48px;
     border-bottom: 1px solid #f0f0f0;
 }
 
-.project:last-child {
+.project:last-child,
+.ml-system:last-child {
     border-bottom: none;
 }
 
-.project h3 {
+.project h3,
+.ml-system h3 {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 12px;
     letter-spacing: -0.01em;
 }
 
-.project h4 {
+.project h4,
+.ml-system h4 {
     font-size: 0.95rem;
     font-weight: 600;
     margin-top: 20px;
@@ -191,35 +195,41 @@ section h2 {
     color: #4a4a4a;
 }
 
-.project p {
+.project p,
+.ml-system p {
     margin-bottom: 16px;
     color: #4a4a4a;
     line-height: 1.7;
 }
 
-.project ul {
+.project ul,
+.ml-system ul {
     margin: 16px 0 16px 20px;
     color: #4a4a4a;
 }
 
-.project ul li {
+.project ul li,
+.ml-system ul li {
     margin-bottom: 8px;
     line-height: 1.6;
 }
 
-.project strong {
+.project strong,
+.ml-system strong {
     color: #1a1a1a;
     font-weight: 600;
 }
 
-.project a {
+.project a,
+.ml-system a {
     color: #1a1a1a;
     text-decoration: underline;
     text-decoration-color: #d0d0d0;
     transition: text-decoration-color 0.2s;
 }
 
-.project a:hover {
+.project a:hover,
+.ml-system a:hover {
     text-decoration-color: #1a1a1a;
 }
 
