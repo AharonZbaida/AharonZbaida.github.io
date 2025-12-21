@@ -29,10 +29,11 @@ Available for consulting, contract work, partnerships, and full-time opportuniti
 - **Technical:** Blueprint reading, structural systems, MEP integration, building codes, regulatory compliance
 - **Specializations:** Residential construction, commercial maintenance and renovations
 
-### Materials Science & Chemistry
-- **Lab Operations:** Chemical synthesis, analytical instrumentation (GC-MS, HPLC, spectroscopy), quality control
-- **Applications:** Precision actuators, mechanical systems, aerospace and industrial materials
-- **Documentation:** Technical reports, regulatory compliance, process optimization for manufacturing scale-up
+### Laboratory & Chemistry R&D
+- **Lab Setup:** Chem/bio laboratory design and implementation for innovation center clients
+- **R&D Projects:** Medical devices, chemical indicators, dental materials, reverse engineering, product failure analysis
+- **Technical:** Analytical instrumentation, quality control, contract research proposals
+- **Documentation:** Technical reports, regulatory compliance, project documentation
 
 ### Biomedical Engineering
 - **Research:** Cardiac modeling, mathematical simulation, experimental validation
@@ -70,24 +71,24 @@ Led development of quantitative trading platform with integrated ML and event st
 
 **Business Impact:** Platform enabled systematic trading across multiple asset classes with comprehensive risk management and performance tracking
 
-### Construction Project Manager | Various Locations | 2008–2020
+### Licensed Home Improvement Contractor | Anitani LLC / Zbaida LLC | New Jersey | 2002–2024
 
-Managed residential and commercial construction projects and maintenance with hands-on involvement.
+Managed residential and commercial renovation projects, property maintenance operations, and small-scale design/build work.
 
 **Project Scope:**
 - Residential construction and commercial maintenance projects under tight budget constraints
-- Commercial renovations and tenant improvements
+- Rehab projects, commercial renovations, and tenant improvements
 - Small crew management with direct subcontractor coordination
-- Quality control, safety compliance, regulatory approvals
+- Contract preparation, permits, inspections, and regulatory compliance
 
 **Key Achievements:**
+- Licensed contractor in Middlesex County, NJ for 20+ years
 - Delivered projects on-time and within budget with zero safety incidents
 - Managed scheduling across concurrent phases (foundation, framing, MEP, finishing)
 - Negotiated and managed subcontractor relationships maintaining quality standards
-- Ensured compliance with building codes, permits, inspection requirements, and ADA standards
-- Developed practical quality control processes
+- Prepared budgets, schedules, procurement lists, and progress reports
 
-**Technical Skills:** Blueprint reading, structural assessment, MEP systems integration, cost estimation, scheduling, building code compliance
+**Technical Skills:** Blueprint reading, structural assessment, MEP systems integration, cost estimation, scheduling, building code compliance, permits and inspections
 
 ### Programming Manager | Concord Wealth Management | Los Angeles, CA | 2007–2008
 
@@ -102,19 +103,20 @@ Led 8-person development team for financial services SaaS platform.
 
 **Technologies:** Web application development, database design, API integration, financial data systems
 
-### Project Engineer | Daren Labs Scientific | Israel | 2014–2016
+### Project Engineer | Daren Labs Scientific | Nes Ziona, Israel | 2014–2016
 
-Data analysis and modeling for R&D projects in materials science and chemistry.
+Laboratory setup and R&D for startup innovation center clients.
 
 **Responsibilities:**
-- Chemistry lab operations and quality control for aerospace and industrial applications
-- Material characterization and performance testing
-- Analytical instrumentation: GC-MS, HPLC, spectroscopy
-- Technical documentation for regulatory compliance
-- Process optimization for manufacturing scale-up
-- Development of precision actuators and mechanical systems
+- Set up chem/bio laboratories for innovation center clients
+- Developed time-tracking application for scientific research projects
+- Conducted R&D for medical devices, reverse engineering, and product failure analysis
+- Chemical indicators for personal hygiene products
+- Novel dental reconstruction materials development
+- Contract research quotes and project proposals
+- Chemistry R&D in reverse engineering and product failure investigation
 
-**Specializations:** Aerospace materials, industrial chemistry, quality assurance protocols, batch validation
+**Specializations:** Laboratory setup, medical device R&D, chemistry research, reverse engineering
 
 ### Research & Algorithm Engineer | Anitani Solutions | 2003–2017
 
@@ -129,6 +131,16 @@ Algorithmic trading systems development and statistical modeling.
 
 **Technologies:** Python, genetic algorithms, neural networks, API integration, statistical analysis
 
+### HVAC Technician | Cold Bear HVAC | NJ & NYC | 1990s–2001 (Seasonal)
+
+Installation, service, and repair of HVAC equipment during spring/summer seasons.
+
+**Responsibilities:**
+- Installed residential and commercial HVAC systems
+- Serviced and repaired heating and cooling equipment
+- Troubleshot electrical and mechanical system failures
+- Performed routine maintenance and inspections
+
 ---
 
 ## Education
@@ -139,6 +151,11 @@ Rutgers University, New Brunswick, NJ | Graduated 2001
 - **Senior Project:** Medical image processing library in Java
 - **Research:** Mathematical modeling of cardiac muscle contractility
 - **Coursework:** Systems physiology, biomechanics, signal processing, medical imaging, instrumentation
+
+**Construction Management Certificate**
+Middlesex County College, Edison, NJ
+
+- **Coursework:** Project planning, scheduling, cost control, safety, blueprint reading, construction methods
 
 ---
 
@@ -196,10 +213,11 @@ Israeli traffic violation consulting website with bilingual interface (Hebrew/En
 **Technical:** Blueprint reading, structural systems, MEP coordination, building codes, ADA compliance
 **Software:** CAD, project management software, estimation tools
 
-### Laboratory & Materials
-**Instrumentation:** GC-MS, HPLC, spectroscopy, analytical chemistry equipment
-**Processes:** Chemical synthesis, material testing, quality assurance, batch validation
-**Documentation:** SOPs, regulatory submissions, technical reports
+### Laboratory & Chemistry R&D
+**Lab Setup:** Chem/bio laboratory design and implementation, equipment procurement and installation
+**R&D:** Medical devices, chemical indicators, dental materials, reverse engineering, product failure analysis
+**Technical:** Analytical instrumentation, quality control protocols, contract research
+**Documentation:** Project proposals, technical reports, regulatory compliance documentation
 
 ---
 
