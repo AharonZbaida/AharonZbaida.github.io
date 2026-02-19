@@ -3,65 +3,74 @@
 **Email:** roni762583@gmail.com | **Phone:** +1 (302) 648-2641
 **LinkedIn:** [linkedin.com/in/aharonzbaida](https://www.linkedin.com/in/aharonzbaida/) | **GitHub:** [github.com/roni762583](https://github.com/roni762583) | **Portfolio:** [aharonzbaida.github.io](https://aharonzbaida.github.io)
 
-## Senior Machine Learning Engineer – Financial Risk & Decision Systems
+## Data Analyst – Financial & Operational Data | Remote
 
-Machine learning engineer with 15+ years building production systems for structured financial data. Focused on tabular modeling, time-aware evaluation, and end-to-end ML pipelines in regulated environments. Experienced as early or sole ML contributor delivering models that support high-stakes decision-making.
+Data analyst with 15+ years working with structured data in financial services, construction operations, and R&D environments. Combines deep SQL and Python skills with domain expertise in financial analysis, project cost management, and regulatory reporting. Experienced working independently and leading data-driven decision-making in resource-constrained settings.
 
 ## Skills
 
-**ML & Modeling:** XGBoost, LightGBM, CatBoost | Probabilistic modeling | Calibration | Imbalanced outcomes | Time-series & time-to-event
-**Evaluation:** Out-of-time validation | Regime & cohort analysis | Bootstrap methods | Backtesting
-**Data & Systems:** Python, SQL, DuckDB | Data pipelines | Experiment tracking | Docker | API-based model serving
-**Domain:** Financial risk modeling | Portfolio analysis | Trading system performance evaluation
+**Data Analysis & Querying:** SQL (PostgreSQL, DuckDB), Python (pandas, NumPy), Excel (pivot tables, VLOOKUP, data modeling)
+**Visualization & BI:** Tableau, data dashboards, Chart.js, reporting & presentation
+**Statistical Analysis:** Hypothesis testing, A/B analysis, bootstrap methods, trend analysis, regression
+**Data & Systems:** Data pipelines, data cleaning & validation, ETL processes, CSV/JSON/API data sources
+**Domain:** Financial data analysis, cost analysis, project budgeting, regulatory compliance reporting
 
-## Selected ML Systems
+## Selected Data Analysis Projects
 
-### Financial ML Pipeline
-Built reproducible end-to-end pipelines for structured financial data supporting strategy evaluation and risk assessment.
+### Financial Data Analysis Pipeline
+Built reproducible analysis pipeline for structured financial data supporting strategy evaluation and risk assessment.
 
-- **Problem:** Financial models require rigorous temporal validation to avoid lookahead bias and account for regime shifts
-- **Approach:** Implemented walk-forward splits, regime-aware cohort analysis, and comprehensive experiment logging (data versions, code revisions, hyperparameters)
-- **Outcome:** Production pipeline enabling valid out-of-time performance assessment for trading strategies
+- **Problem:** Needed to analyze large financial datasets across multiple time periods while preventing data leakage between analysis windows
+- **Approach:** Built reproducible analysis pipeline with time-aware data splits, cohort segmentation, and automated reporting of key financial metrics
+- **Outcome:** Enabled consistent, auditable analysis across multiple financial instruments with clear documentation of methodology and findings
+- **Tools:** SQL, Python (pandas), data validation, automated reporting
 
-### Statistical Validation Framework
-Developed tools for evaluating long-horizon financial outcomes where traditional cross-validation fails.
+### Market Data Statistical Analysis
+Evaluated whether patterns in forex market data represent genuine trends or random noise.
 
-- **Problem:** Standard ML validation underestimates variance in financial predictions with autocorrelated outcomes
-- **Approach:** Bootstrap and permutation testing methods adapted for time-series; confidence interval estimation; robustness metrics under different market regimes
-- **Outcome:** Framework enabling statistically sound model selection and honest performance reporting
+- **Problem:** Evaluate whether patterns in forex market data represent genuine trends or random noise
+- **Approach:** Applied statistical testing (bootstrap, permutation tests) across 224K records and 24 instruments. Created summary dashboards showing confidence intervals and significance metrics
+- **Outcome:** Produced rigorous analysis report with clear visualization of findings — including honest reporting that most apparent patterns did not survive statistical scrutiny
+- **Tools:** Python, statistical analysis, data visualization
 
-### Feature Engineering Service
-Created configuration-driven feature engineering layer ensuring consistency across training and inference.
+### Trading Strategy Performance Dashboard
+Built interactive dashboard for evaluating and comparing strategy performance metrics.
 
-- **Problem:** Feature drift between training, backtesting, and live deployment creates silent model degradation
-- **Approach:** Centralized feature computation with versioning; point-in-time correctness guarantees; support for both historical replay and streaming data
-- **Outcome:** Eliminates lookahead bias and ensures reproducibility across model lifecycle
+- **Problem:** Traders needed a clear way to evaluate and compare strategy performance metrics
+- **Approach:** Built interactive dashboard calculating expectancy, risk-reward ratios, and drawdown analysis from trade log data (CSV/manual entry)
+- **Outcome:** Live tool used for strategy evaluation with exportable PDF reports
+- **Tools:** JavaScript, Chart.js, statistical calculations, PDF generation
+- **Link:** [Live Demo](https://roni762583.github.io/peoplesfintech.github.io/ec.html)
 
 ## Professional Experience
 
-### Independent ML Engineer / Researcher | Remote | 2020–Present
+### Data Analyst & Researcher | Remote | 2020–Present
 
-Focus on production ML systems for algorithmic trading and quantitative finance.
-
-- Designed reinforcement learning trading pipeline: 7,876 ticks/sec throughput, <100ms latency, 60% memory reduction
-- Conducted ML research on market predictability: 537K-parameter hybrid architecture on 224K samples across 24 instruments; honest reporting of null results (50.1% accuracy)
-- Built statistical validation tools for time-series prediction in non-stationary environments
-- Technologies: PyTorch, XGBoost, LightGBM, Docker, streaming data platforms
+- Analyzed financial datasets (224K+ records across 24 instruments) using Python and SQL
+- Built statistical validation tools for time-series analysis with automated reporting
+- Created interactive dashboards for trading strategy performance evaluation
+- Developed data pipelines for cleaning, transforming, and validating market data from API sources
+- Technologies: Python (pandas, NumPy), SQL, data visualization, statistical analysis
 
 ### Founder & CTO | Peoples' FinTech LLC | Los Angeles, CA | 2017–2020
 
-Led development of quantitative trading platform with integrated ML and event stream processing.
+- Led data platform development integrating multiple financial data sources for analysis and reporting
+- Built expectancy calculator dashboard for strategy performance evaluation (live demo available)
+- Managed team; responsible for data architecture, analysis methodology, and product roadmap
+- Technologies: Python, SQL, data pipelines, dashboard development
 
-- Built production trading infrastructure integrating ML models with event-driven architecture (Kafka/ksqlDB)
-- Developed expectancy calculator for strategy performance evaluation (Dr. Van Tharp framework)
-- Managed team of contract developers; responsible for technical architecture and product roadmap
-- Technologies: Python, Kafka, machine learning, Docker, cloud infrastructure
+### Construction Operations & Cost Analysis | Anitani LLC / Zbaida LLC | NJ | 2002–2020
+
+- Managed project budgets, cost tracking, and financial reporting for residential and commercial construction projects over 18 years
+- Created estimates, procurement schedules, and progress reports using spreadsheets and project management tools
+- Tracked costs across concurrent project phases; produced variance analysis and budget-vs-actual reports
+- Skills: Cost estimation, budget analysis, financial reporting, scheduling, regulatory compliance documentation
 
 ### Earlier Roles | 2003–2016
 
-**Programming Manager** – Concord Wealth Management (2007–2008): Led 8-person dev team; SaaS platform migration
-**Project Engineer** – Daren Labs Scientific, Israel (2014–2016): Data analysis and modeling for R&D projects
-**Research & Algorithm Engineer** – Anitani Solutions (2004–2017): Algorithmic trading systems; statistical modeling
+**Programming Manager** – Concord Wealth Management (2007–2008): Led 8-person dev team building financial services platform; data reporting and platform analytics
+**Project Engineer** – Daren Labs Scientific, Israel (2014–2016): Data collection, analysis, and reporting for R&D projects; time-tracking application development
+**Research & Algorithm Engineer** – Anitani Solutions (2003–2017): Statistical analysis of financial data; backtesting and performance analysis
 
 ## Education
 
@@ -74,6 +83,7 @@ Zbaida, A., et al. "Series Elastic Fiber Damage in Stunned Myocardium." *America
 
 ## Open Source
 
-**FX Market Edge Prediction:** Hybrid TCNAE + LightGBM research on forex data ([GitHub](https://github.com/roni762583/edgefindingexperiment))
-**OANDA NEAT Algorithm:** Genetic algorithm-based trading system ([GitHub](https://github.com/roni762583/oanda_neat/))
+**Hebrew Bible Analysis Suite:** 11-tool computational analysis platform — 304K letters, Web Workers, 3D visualization, WRR replication ([Live](https://bible-codes.github.io/) | [GitHub](https://github.com/bible-codes/bible-codes.github.io))
 **Expectancy Calculator:** Strategy performance evaluation tool ([Live](https://roni762583.github.io/peoplesfintech.github.io/ec.html))
+**Market Data Statistical Analysis:** Statistical research on forex data ([GitHub](https://github.com/roni762583/edgefindingexperiment))
+**Automated Strategy Analysis:** Performance evaluation with genetic optimization ([GitHub](https://github.com/roni762583/oanda_neat/))

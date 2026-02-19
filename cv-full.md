@@ -1,5 +1,5 @@
 # Aharon Zbaida
-## Complete Curriculum Vitae
+## Data Analyst – Complete Professional History
 
 **Email:** roni762583@gmail.com | **Phone:** +1 (302) 648-2641
 **LinkedIn:** [linkedin.com/in/aharonzbaida](https://www.linkedin.com/in/aharonzbaida/) | **GitHub:** [github.com/roni762583](https://github.com/roni762583)
@@ -9,137 +9,124 @@
 
 ## Professional Summary
 
-Multi-disciplinary engineer with 20+ years of experience building systems across machine learning, construction, materials science, and biomedical engineering. Demonstrated ability to lead technical projects from conception to deployment, manage teams, and deliver complex systems in regulated environments. Experience spans production ML pipelines for financial data, small crew residential and commercial general construction and maintenance under tight budget constraints, chemistry lab operations, and medical device development.
+Data analyst with 20+ years of experience working with structured data across financial services, construction operations, laboratory R&D, and biomedical research. Demonstrated ability to build reproducible analysis workflows, create interactive dashboards, and deliver clear, data-driven insights in resource-constrained settings. Combines deep SQL and Python skills with domain expertise in financial data analysis, project cost management, and regulatory reporting.
 
-Available for consulting, contract work, partnerships, and full-time opportunities in ML systems, construction technology, and technical project leadership—both in the US and internationally (Israel, Africa, Caribbean).
+Available for remote Data Analyst opportunities in financial services, construction technology, insurance, and organizations that value deep analytical skills and cross-domain experience.
 
 ---
 
 ## Core Competencies
 
-### Machine Learning & Software Engineering
-- **ML Systems:** Production pipelines, reinforcement learning, time-series modeling, gradient boosting (XGBoost, LightGBM, CatBoost)
-- **Evaluation:** Out-of-time validation, regime & cohort analysis, bootstrap methods, backtesting, statistical inference
-- **Engineering:** Python, SQL, DuckDB, Docker, API development, data pipelines, experiment tracking
-- **Domain:** Financial risk modeling, algorithmic trading, portfolio analysis, quantitative finance
+### Data Analysis & Business Intelligence
+- **Querying & Analysis:** SQL (PostgreSQL, DuckDB), Python (pandas, NumPy), Excel (pivot tables, VLOOKUP, data modeling)
+- **Visualization & BI:** Tableau, data dashboards, Chart.js, reporting & presentation
+- **Data Engineering:** Data pipelines, data cleaning & validation, ETL processes, CSV/JSON/API data sources
 
-### Construction & Project Management
-- **Project Leadership:** Small crew management, subcontractor coordination, multi-phase scheduling
-- **Budget Management:** Cost estimation, procurement, financial controls under tight constraints
-- **Technical:** Blueprint reading, structural systems, MEP integration, building codes, regulatory compliance
-- **Specializations:** Residential construction, commercial maintenance and renovations
+### Statistical Analysis & Research
+- **Methods:** Hypothesis testing, A/B analysis, bootstrap methods, trend analysis, regression, permutation testing
+- **Time-Series:** Temporal analysis, cohort segmentation, confidence interval estimation
+- **Research:** Rigorous methodology, reproducible workflows, honest reporting of findings
 
-### Laboratory & Chemistry R&D
-- **Lab Setup:** Chem/bio laboratory design and implementation for innovation center clients
-- **R&D Projects:** Medical devices, chemical indicators, dental materials, reverse engineering, product failure analysis
-- **Technical:** Analytical instrumentation, quality control, contract research proposals
-- **Documentation:** Technical reports, regulatory compliance, project documentation
+### Operational & Project Analytics
+- **Financial Controls:** Cost estimation, budget analysis, variance analysis, financial reporting
+- **Project Data:** Scheduling analysis, procurement tracking, progress reporting, compliance documentation
+- **Domain:** Construction operations, R&D project management, regulatory compliance
 
-### Biomedical Engineering
-- **Research:** Cardiac modeling, mathematical simulation, experimental validation
-- **Technical:** Medical image processing, device development, FDA regulatory pathways
-- **Publication:** Peer-reviewed research in cardiovascular biomechanics
+### Technical Skills
+- **Languages:** Python, SQL, JavaScript, Java, Bash
+- **Data Tools:** pandas, NumPy, DuckDB, PostgreSQL, Excel, Tableau
+- **Infrastructure:** Data pipelines, API integration, Docker, Git
+- **Visualization:** Chart.js, dashboards, automated reporting, data presentation
 
 ---
 
 ## Professional Experience
 
-### Independent ML Engineer / Researcher | Remote | 2020–Present
+### Data Analyst & Researcher | Remote | 2020–Present
 
-Focus on production ML systems for algorithmic trading and quantitative finance.
+Focus on financial data analysis, statistical validation, and dashboard development.
 
 **Key Projects:**
-- **MuZero Trading Pipeline:** Designed reinforcement learning system processing 7,876 ticks/sec with <100ms latency and 60% memory reduction through optimized state representation
-- **FX Market Edge Prediction:** Conducted ML research on market predictability using hybrid TCNAE + LightGBM architecture (537K parameters, 224K samples across 24 instruments). Demonstrated rigorous out-of-time validation with honest reporting of null results (50.1% accuracy)
-- **Statistical Validation Framework:** Built bootstrap and permutation testing tools for time-series prediction in non-stationary financial environments
-- **Feature Engineering Service:** Created configuration-driven feature computation layer with versioning, point-in-time correctness guarantees, and support for historical replay and streaming data
+- **Financial Data Analysis Pipeline:** Built reproducible analysis pipeline for structured financial data with time-aware data splits, cohort segmentation, and automated reporting. Processed 7,876 records/sec with optimized data representation
+- **Market Data Statistical Research:** Analyzed 224,000 records across 24 currency instruments using bootstrap and permutation testing. Created summary dashboards with confidence intervals and significance metrics. Honest reporting of findings — most apparent patterns did not survive statistical scrutiny
+- **Statistical Validation Tools:** Built tools for time-series analysis in non-stationary financial environments with automated reporting
+- **Trading Strategy Dashboard:** Created interactive dashboard for strategy performance evaluation with exportable PDF reports
+- **Hebrew Bible Analysis Suite:** Built 11-tool computational analysis platform processing 304,805 Hebrew letters with Web Workers, compressed data pipeline (630MB→21MB), and statistical pattern detection including first open-source WRR experiment replication
 
-**Technologies:** PyTorch, XGBoost, LightGBM, CatBoost, Python, Docker, Kafka, SQL, streaming data platforms
+**Technologies:** Python (pandas, NumPy), SQL, data visualization, statistical analysis, JavaScript, Web Workers
 
 ### Founder & CTO | Peoples' FinTech LLC | Los Angeles, CA | 2017–2020
 
-Led development of quantitative trading platform with integrated ML and event stream processing.
+Led data platform development integrating multiple financial data sources for analysis and reporting.
 
 **Responsibilities:**
-- Built production trading infrastructure integrating ML models with event-driven architecture (Kafka/ksqlDB)
-- Developed expectancy calculator for strategy performance evaluation (Dr. Van Tharp framework)
-- Managed team of contract developers; responsible for technical architecture and product roadmap
-- Designed and implemented backtesting infrastructure with walk-forward validation
-- Created monitoring and alerting systems for live trading operations
+- Built expectancy calculator dashboard for strategy performance evaluation (Dr. Van Tharp framework)
+- Integrated multiple financial data sources into unified analysis and reporting platform
+- Managed team of contract developers; responsible for data architecture, analysis methodology, and product roadmap
+- Designed data pipelines and reporting infrastructure
 
-**Technologies:** Python, Kafka, ksqlDB, machine learning, Docker, cloud infrastructure (AWS)
+**Technologies:** Python, SQL, data pipelines, dashboard development, cloud infrastructure (AWS)
 
-**Business Impact:** Platform enabled systematic trading across multiple asset classes with comprehensive risk management and performance tracking
+**Business Impact:** Platform enabled systematic analysis across multiple asset classes with comprehensive performance tracking and reporting
 
-### Licensed Home Improvement Contractor | Anitani LLC / Zbaida LLC | New Jersey | 2002–2024
+### Construction Operations & Cost Analysis | Anitani LLC / Zbaida LLC | New Jersey | 2002–2024
 
-Managed residential and commercial renovation projects, property maintenance operations, and small-scale design/build work.
+Managed project budgets, cost tracking, and financial reporting for residential and commercial construction projects over 18+ years.
 
-**Project Scope:**
-- Residential construction and commercial maintenance projects under tight budget constraints
-- Rehab projects, commercial renovations, and tenant improvements
-- Small crew management with direct subcontractor coordination
-- Contract preparation, permits, inspections, and regulatory compliance
+**Data & Analysis Work:**
+- Created and maintained project budgets with cost tracking across concurrent phases
+- Produced budget-vs-actual reports and variance analysis for project stakeholders
+- Built procurement schedules and cost estimates using spreadsheet models
+- Prepared progress reports, compliance documentation, and regulatory reporting
+- Tracked financial performance across multiple concurrent projects
 
 **Key Achievements:**
-- Licensed contractor in Middlesex County, NJ for 20+ years
+- 20+ years of continuous cost analysis and financial reporting
 - Delivered projects on-time and within budget with zero safety incidents
-- Managed scheduling across concurrent phases (foundation, framing, MEP, finishing)
-- Negotiated and managed subcontractor relationships maintaining quality standards
+- Managed scheduling and financial controls across concurrent project phases
 - Prepared budgets, schedules, procurement lists, and progress reports
 
-**Technical Skills:** Blueprint reading, structural assessment, MEP systems integration, cost estimation, scheduling, building code compliance, permits and inspections
+**Skills:** Cost estimation, budget analysis, financial reporting, variance analysis, scheduling, regulatory compliance documentation
 
 ### Programming Manager | Concord Wealth Management | Los Angeles, CA | 2007–2008
 
-Led 8-person development team for financial services SaaS platform.
+Led 8-person development team for financial services platform.
 
 **Responsibilities:**
 - Managed development team and sprint planning
-- Oversaw platform migration and modernization
-- Implemented CI/CD pipelines and code quality standards
-- Coordinated with product team on feature development
+- Oversaw platform development and data reporting systems
+- Coordinated with product team on feature development and analytics
 - Conducted code reviews and technical mentoring
 
 **Technologies:** Web application development, database design, API integration, financial data systems
 
 ### Project Engineer | Daren Labs Scientific | Nes Ziona, Israel | 2014–2016
 
-Laboratory setup and R&D for startup innovation center clients.
+Data collection, analysis, and reporting for R&D projects at startup innovation center.
 
 **Responsibilities:**
-- Set up chem/bio laboratories for innovation center clients
-- Developed time-tracking application for scientific research projects
-- Conducted R&D for medical devices, reverse engineering, and product failure analysis
-- Chemical indicators for personal hygiene products
-- Novel dental reconstruction materials development
-- Contract research quotes and project proposals
-- Chemistry R&D in reverse engineering and product failure investigation
+- Collected and analyzed data for medical device, chemical product, and materials R&D projects
+- Developed time-tracking application for research project management
+- Prepared technical reports, contract research proposals, and project documentation
+- Set up laboratories for innovation center clients
 
-**Specializations:** Laboratory setup, medical device R&D, chemistry research, reverse engineering
+**Specializations:** R&D data analysis, technical reporting, project documentation, laboratory setup
 
 ### Research & Algorithm Engineer | Anitani Solutions | 2003–2017
 
-Algorithmic trading systems development and statistical modeling.
+Statistical analysis of financial data and performance evaluation systems.
 
 **Projects:**
-- **OANDA NEAT Algorithm:** Genetic algorithm-based trading system using neuroevolution (NEAT framework)
-- Statistical modeling for financial markets
-- Backtesting infrastructure development
+- Statistical analysis and backtesting of financial market data
 - Data pipeline development for market data processing
-- Risk management systems
+- Performance analysis and evaluation frameworks
+- Automated reporting systems
 
-**Technologies:** Python, genetic algorithms, neural networks, API integration, statistical analysis
+**Technologies:** Python, SQL, statistical analysis, API integration, data pipelines
 
 ### HVAC Technician | Cold Bear HVAC | NJ & NYC | 1990s–2001 (Seasonal)
 
 Installation, service, and repair of HVAC equipment during spring/summer seasons.
-
-**Responsibilities:**
-- Installed residential and commercial HVAC systems
-- Serviced and repaired heating and cooling equipment
-- Troubleshot electrical and mechanical system failures
-- Performed routine maintenance and inspections
 
 ---
 
@@ -149,7 +136,7 @@ Installation, service, and repair of HVAC equipment during spring/summer seasons
 Rutgers University, New Brunswick, NJ | Graduated 2001
 
 - **Senior Project:** Medical image processing library in Java
-- **Research:** Mathematical modeling of cardiac muscle contractility
+- **Research:** Mathematical modeling of cardiac muscle contractility (published)
 - **Coursework:** Systems physiology, biomechanics, signal processing, medical imaging, instrumentation
 
 **Construction Management Certificate**
@@ -163,61 +150,53 @@ Middlesex County College, Edison, NJ
 
 Zbaida, A., Rosenman, J., Hunter, W., Nikolic, S. "Series Elastic Fiber Damage in Stunned Myocardium." *American Journal of Hypertension*, v. 13, p. 51A, (2000).
 
-**Research Focus:** Mathematical modeling of cardiac mechanics, specifically series elastic fiber damage in stunned myocardium. Developed computational models and conducted experimental validation using animal models.
+**Research Focus:** Mathematical modeling and data analysis of cardiac mechanics. Developed computational models, collected experimental data, and conducted statistical validation.
 
 ---
 
 ## Selected Projects & Open Source
 
-### Machine Learning & Software
+### Data Analysis & Software
 
-**FX Market Edge Prediction** | [GitHub](https://github.com/roni762583/edgefindingexperiment)
-Hybrid TCNAE + LightGBM research on forex market microstructure. 224K samples across 24 instruments with rigorous out-of-time validation.
+**Market Data Statistical Analysis** | [GitHub](https://github.com/roni762583/edgefindingexperiment)
+Statistical research on forex market data. 224K records across 24 instruments with rigorous bootstrap and permutation testing.
 
-**OANDA NEAT Algorithm** | [GitHub](https://github.com/roni762583/oanda_neat/)
-Genetic algorithm-based trading system using neuroevolution. Integration with OANDA API for live trading.
+**Automated Strategy Analysis System** | [GitHub](https://github.com/roni762583/oanda_neat/)
+Performance evaluation with genetic optimization. Integration with financial data API for automated analysis.
 
-**Expectancy Calculator** | [Live Demo](https://roni762583.github.io/peoplesfintech.github.io/ec.html)
-Trading strategy performance evaluation tool based on Dr. Van Tharp's framework. Monte Carlo simulation for drawdown estimation.
+**Expectancy Calculator Dashboard** | [Live Demo](https://roni762583.github.io/peoplesfintech.github.io/ec.html)
+Interactive strategy performance evaluation tool. Expectancy calculation, risk-reward ratios, Monte Carlo simulation, PDF export.
 
-**Bible Codes Analysis Tool**
-Progressive Web App for equidistant letter sequence (ELS) analysis in biblical texts. Hebrew text processing with offline capabilities.
+**Hebrew Bible Analysis Suite** | [Live Demo](https://bible-codes.github.io/) | [GitHub](https://github.com/bible-codes/bible-codes.github.io)
+11-tool computational analysis platform for Hebrew biblical texts. 304,805 letters, Web Workers for off-thread computation, 3D visualization, compressed data pipeline, first open-source WRR experiment replication. Built with Claude Code (Anthropic) as a development accelerator.
 
-**Habirokrator**
-Israeli traffic violation consulting website with bilingual interface (Hebrew/English) and automated document generation.
-
-### Mathematical Visualizations
-
-**Interactive Demos:**
-- Lissajous curves with real-time parameter adjustment
-- Epicycloid generation and animation
-- Canvas-based mathematical graphics
+**Bilingual Business Process Application**
+Data-driven document generation platform with Hebrew/English bilingual interface.
 
 ---
 
 ## Technical Skills
 
-### Programming & Software
-**Languages:** Python, Java, JavaScript, SQL, Bash
-**ML/Data:** PyTorch, XGBoost, LightGBM, CatBoost, scikit-learn, pandas, NumPy
-**Infrastructure:** Docker, Kafka, ksqlDB, Redis, PostgreSQL, TimescaleDB
-**Cloud & DevOps:** AWS, CI/CD, Git, experiment tracking, API development
+### Data Analysis & Querying
+**Languages:** SQL (PostgreSQL, DuckDB), Python (pandas, NumPy), Excel (pivot tables, VLOOKUP, data modeling)
+**Analysis:** Data cleaning, validation, transformation, cohort analysis, trend analysis
+
+### Visualization & Reporting
+**Tools:** Tableau, Chart.js, data dashboards, automated reporting
+**Output:** Interactive dashboards, PDF reports, stakeholder presentations, data storytelling
+
+### Statistical Methods
+**Core:** Hypothesis testing, bootstrap methods, permutation testing, A/B analysis, regression
+**Applied:** Time-series analysis, Monte Carlo simulation, confidence intervals, significance testing
+
+### Infrastructure & Engineering
+**Systems:** Data pipelines, ETL, API integration, Docker, Git
+**Data Sources:** CSV, JSON, REST APIs, financial data feeds, spreadsheet models
 
 ### Domain Expertise
-**Financial ML:** Time-series modeling, backtesting, risk modeling, portfolio analysis, regime detection
-**Statistical Methods:** Bootstrap methods, permutation testing, Monte Carlo simulation, hypothesis testing
-**Algorithmic Trading:** Strategy development, execution systems, market microstructure, performance attribution
-
-### Construction & Engineering
-**Project Management:** Scheduling, cost control, procurement, quality control, safety compliance
-**Technical:** Blueprint reading, structural systems, MEP coordination, building codes, ADA compliance
-**Software:** CAD, project management software, estimation tools
-
-### Laboratory & Chemistry R&D
-**Lab Setup:** Chem/bio laboratory design and implementation, equipment procurement and installation
-**R&D:** Medical devices, chemical indicators, dental materials, reverse engineering, product failure analysis
-**Technical:** Analytical instrumentation, quality control protocols, contract research
-**Documentation:** Project proposals, technical reports, regulatory compliance documentation
+**Financial:** Market data analysis, cost analysis, performance metrics, strategy evaluation
+**Operational:** Budget tracking, variance analysis, scheduling, procurement, compliance reporting
+**Research:** R&D data collection, technical reporting, experimental methodology
 
 ---
 
@@ -231,16 +210,16 @@ Israeli traffic violation consulting website with bilingual interface (Hebrew/En
 ## Professional Affiliations & Certifications
 
 - Published research in peer-reviewed biomedical journal
-- Experience with FDA regulatory pathways for medical devices
-- Construction project management (practical experience across 12+ years)
+- Construction project management (practical experience across 18+ years)
+- Cross-domain data analysis (financial, operational, R&D, biomedical)
 
 ---
 
 ## Geographic Availability
 
-**Primary:** United States (remote or on-site)
-**International:** Available for opportunities in Israel, Africa, and Caribbean regions
-**Travel:** Available for project-based travel and international consulting
+**Primary:** United States (remote)
+**International:** Available for remote opportunities in Israel
+**Preference:** Remote work
 
 ---
 
@@ -250,4 +229,4 @@ Available upon request
 
 ---
 
-*Last Updated: December 2025*
+*Last Updated: February 2026*

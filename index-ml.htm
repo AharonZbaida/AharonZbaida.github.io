@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aharon Zbaida - Senior Machine Learning Engineer specializing in financial risk and decision systems.">
+    <title>Aharon Zbaida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aharon Zbaida</h1>
+        <p>Senior Machine Learning Engineer – Financial Risk & Decision Systems</p>
+        <nav>
+            <ul>
+                <li><a href="resume.pdf" class="resume-link" download>Resume (PDF)</a></li>
+                <li><a href="https://linkedin.com/in/aharonzbaida" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/roni762583" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <p>I build and operate production ML models on structured financial data to support credit, pricing, and high-stakes decisioning in regulated environments. Focused on tabular modeling, rigorous evaluation, and systems that ship.</p>
+        </section>
+
+        <section id="selected-work">
+            <h2>Selected ML Systems</h2>
+
+            <article class="ml-system">
+                <h3>Financial ML Pipeline</h3>
+                <p><strong>Problem:</strong> Financial models require rigorous temporal validation to avoid lookahead bias and account for regime shifts in non-stationary markets.</p>
+                <p><strong>Approach:</strong> Built end-to-end pipeline with walk-forward splits, regime-aware cohort analysis, and comprehensive experiment tracking. Implemented versioning for data, code, and model artifacts to ensure reproducibility.</p>
+                <p><strong>Outcome:</strong> Production pipeline enabling valid out-of-time performance assessment for trading strategies. Framework prevents common pitfalls in financial ML including data leakage and overfitting to historical regimes.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">XGBoost</span>
+                    <span class="tech-tag">LightGBM</span>
+                    <span class="tech-tag">Docker</span>
+                </div>
+            </article>
+
+            <article class="ml-system">
+                <h3>Statistical Validation Framework</h3>
+                <p><strong>Problem:</strong> Standard cross-validation underestimates variance in financial predictions with autocorrelated outcomes and non-IID data.</p>
+                <p><strong>Approach:</strong> Developed bootstrap and permutation testing methods adapted for time-series. Implemented confidence interval estimation and robustness metrics under different market regimes.</p>
+                <p><strong>Outcome:</strong> Framework enabling statistically sound model selection and honest performance reporting. Prevents overconfidence in backtest results and supports regulatory review.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Statistical Inference</span>
+                    <span class="tech-tag">Time-Series</span>
+                    <span class="tech-tag">Bootstrap Methods</span>
+                </div>
+            </article>
+
+            <article class="ml-system">
+                <h3>Feature Engineering Service</h3>
+                <p><strong>Problem:</strong> Feature drift between training, backtesting, and live deployment creates silent model degradation that compounds over time.</p>
+                <p><strong>Approach:</strong> Created configuration-driven feature computation layer with versioning, point-in-time correctness guarantees, and support for both historical replay and streaming data.</p>
+                <p><strong>Outcome:</strong> Eliminates lookahead bias and ensures reproducibility across model lifecycle. Single source of truth for features reduces debugging time and prevents production incidents.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Feature Engineering</span>
+                    <span class="tech-tag">Data Pipelines</span>
+                    <span class="tech-tag">Production ML</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Background</h2>
+            <p><strong>Independent ML Engineer / Researcher</strong> (2020–Present): Production ML systems for algorithmic trading and quantitative finance. Built reinforcement learning pipeline processing 7,876 ticks/sec; conducted research on market predictability with honest reporting of null results.</p>
+            <p><strong>Founder & CTO, Peoples' FinTech</strong> (2017–2020): Led development of quantitative trading platform integrating ML models with event-driven architecture.</p>
+            <p><strong>Earlier roles:</strong> Programming Manager at Concord Wealth Management (2007–2008); Engineering and modeling work at Daren Labs Scientific and Anitani Solutions (2003–2017).</p>
+            <p><a href="resume.pdf" download>Resume (PDF)</a></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:roni762583@gmail.com">roni762583@gmail.com</a></p>
+            <p>Phone: <a href="tel:+13026482641">+1 (302) 648-2641</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/aharonzbaida" target="_blank">linkedin.com/in/aharonzbaida</a></p>
+            <p>GitHub: <a href="https://github.com/roni762583" target="_blank">github.com/roni762583</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="portfolio-full.html">View full portfolio and other projects</a> | &copy; 2025 Aharon Zbaida</p>
+    </footer>
+</body>
+</html>
