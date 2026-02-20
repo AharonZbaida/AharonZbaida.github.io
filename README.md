@@ -15,7 +15,7 @@ Personal portfolio website showcasing data analysis expertise across financial s
 ### Data Analysis & Software
 - **Financial Data Analysis Pipeline** - Reproducible analysis pipeline processing 7,876 records/sec
 - **Market Data Statistical Analysis** - Bootstrap/permutation testing on 224K records across 24 instruments
-- **Hebrew Bible Analysis Suite** - 11-tool computational analysis platform (304,805 letters, Web Workers, 3D visualization, WRR replication)
+- **Hebrew Bible Analysis Suite** - First open-source JS replication of the 1994 WRR experiment. 11 tools, 304,805 letters, Web Workers, KMP+Boyer-Moore, Three.js 3D WebGL, compressed pipeline (630MB→21MB), PWA. P = 0.0012.
 - **Automated Strategy Analysis System** - Performance evaluation with genetic optimization
 - **Expectancy Calculator Dashboard** - Interactive strategy performance evaluation tool
 
@@ -32,6 +32,8 @@ Professional documents available in multiple formats:
 - **Full CV (Markdown):** [cv-full.md](cv-full.md)
 - **Full CV (PDF):** [cv-full.pdf](cv-full.pdf)
 - **LinkedIn Guide:** [linkedin-about.md](linkedin-about.md)
+- **Bible Codes Portfolio:** [bible-code-PORTFOLIO.md](bible-code-PORTFOLIO.md)
+- **Bible Codes LinkedIn Post:** [linkedin-post-bible-codes.md](linkedin-post-bible-codes.md)
 
 ### Archived ML Versions
 - `index-ml.htm` - ML-focused portfolio page

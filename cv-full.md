@@ -51,7 +51,7 @@ Focus on financial data analysis, statistical validation, and dashboard developm
 - **Market Data Statistical Research:** Analyzed 224,000 records across 24 currency instruments using bootstrap and permutation testing. Created summary dashboards with confidence intervals and significance metrics. Honest reporting of findings — most apparent patterns did not survive statistical scrutiny
 - **Statistical Validation Tools:** Built tools for time-series analysis in non-stationary financial environments with automated reporting
 - **Trading Strategy Dashboard:** Created interactive dashboard for strategy performance evaluation with exportable PDF reports
-- **Hebrew Bible Analysis Suite:** Built 11-tool computational analysis platform processing 304,805 Hebrew letters with Web Workers, compressed data pipeline (630MB→21MB), and statistical pattern detection including first open-source WRR experiment replication
+- **Hebrew Bible Analysis Suite:** Built the first open-source JavaScript replication of the 1994 WRR Bible Codes experiment — 11-tool browser-based platform processing 304,805 Hebrew letters. Web Workers for off-thread ELS scan and permutation testing, KMP+Boyer-Moore pattern matching with Hebrew final-form normalization, compressed data pipeline (630MB→21MB via gzip/DecompressionStream), Three.js 3D WebGL visualization, custom GIF89a encoder, 1.74M pre-computed ELS hits for Hebrew calendar date heatmap. Zero npm packages, zero build steps, PWA (works offline). WRR replication achieved P = 0.0012 — consistent with the finding that no independent researcher has reproduced the original P < 0.00002 in 30+ years
 
 **Technologies:** Python (pandas, NumPy), SQL, data visualization, statistical analysis, JavaScript, Web Workers
 
@@ -167,8 +167,8 @@ Performance evaluation with genetic optimization. Integration with financial dat
 **Expectancy Calculator Dashboard** | [Live Demo](https://roni762583.github.io/peoplesfintech.github.io/ec.html)
 Interactive strategy performance evaluation tool. Expectancy calculation, risk-reward ratios, Monte Carlo simulation, PDF export.
 
-**Hebrew Bible Analysis Suite** | [Live Demo](https://bible-codes.github.io/) | [GitHub](https://github.com/bible-codes/bible-codes.github.io)
-11-tool computational analysis platform for Hebrew biblical texts. 304,805 letters, Web Workers for off-thread computation, 3D visualization, compressed data pipeline, first open-source WRR experiment replication. Built with Claude Code (Anthropic) as a development accelerator.
+**Hebrew Bible Analysis Suite** | [Live Demo](https://bible-codes.github.io/) | [GitHub](https://github.com/bible-codes/bible-codes.github.io) | [Portfolio](bible-code-PORTFOLIO.md)
+First open-source JavaScript replication of the 1994 WRR Bible Codes experiment. 11 interactive research tools processing 304,805 Hebrew letters across 39 Tanakh books. Web Workers, KMP+Boyer-Moore search with sofit normalization, Three.js 3D WebGL visualization, custom GIF89a encoder with LZW compression, compressed data pipeline (630MB→21MB), 1.74M pre-computed ELS hits. Zero npm packages, zero build steps, PWA. WRR replication: P = 0.0012 with fully transparent methodology. Built with Claude Code (Anthropic) as a development accelerator.
 
 **Bilingual Business Process Application**
 Data-driven document generation platform with Hebrew/English bilingual interface.

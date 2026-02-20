@@ -97,8 +97,8 @@
                 <h3>Hebrew Bible Analysis Suite</h3>
                 <p>Comprehensive browser-based platform for computational analysis of the Hebrew Bible (Tanakh), featuring 11 interactive research tools — including the first open-source JavaScript replication of the landmark 1994 Witztum-Rips-Rosenberg equidistant letter sequence experiment.</p>
                 <p><strong>Data Pipeline:</strong> Processed 304,805 consonantal Hebrew letters with character-level metadata across 39 Tanakh books. Built compression pipeline (630MB raw → 21MB served) using gzip via DecompressionStream API. Pre-computed 1.74M ELS hits for Hebrew calendar date heatmap.</p>
-                <p><strong>Technical Architecture:</strong> Web Workers for off-thread computation (ELS scan + WRR permutation testing), custom GIF89a encoder with LZW compression, Three.js 3D matrix visualization with raycasting tooltips, 100% client-side with zero server dependencies.</p>
-                <p><strong>Statistical Rigor:</strong> WRR replication achieved P = 0.00119 (1 in 840) vs. original P < 0.00002. The 75x gap is fully documented and traceable to specific algorithmic choices — transparent reporting of methodology differences.</p>
+                <p><strong>Technical Architecture:</strong> Web Workers for off-thread computation (ELS scan + WRR permutation testing), KMP + Boyer-Moore pattern matching with Hebrew final-form (sofit) letter normalization, custom GIF89a encoder with LZW compression, Three.js 3D WebGL visualization with auto-rotate and video capture. Zero npm packages, zero build steps. PWA — works offline after first visit.</p>
+                <p><strong>Statistical Rigor:</strong> WRR replication achieved P = 0.0012 (1 in 840) vs. original P < 0.00002. No independent researcher has reproduced WRR's original P-value in 30+ years — the MBBK critique (<em>Statistical Science</em>, 1999), the Hebrew University Aumann Committee replications, and this implementation all point to the same conclusion. The ~75x gap is fully documented with transparent methodology.</p>
                 <p><strong>AI-Assisted Development:</strong> Built with <a href="https://claude.ai/claude-code" target="_blank">Claude Code</a> (Anthropic) as a development accelerator for code generation, debugging, and algorithmic implementation.</p>
                 <p><em>Dedicated in loving memory of my Dad and teacher, Shmuel Zbaida z"l.</em></p>
                 <p><a href="https://bible-codes.github.io/" target="_blank">Live Demo</a> | <a href="https://github.com/bible-codes/bible-codes.github.io" target="_blank">View on GitHub</a></p>
@@ -267,7 +267,7 @@
     </main>
 
     <footer>
-        <p><a href="index.htm">View main portfolio</a> | &copy; 2025 Aharon Zbaida</p>
+        <p><a href="index.htm">View main portfolio</a> | &copy; 2026 Aharon Zbaida</p>
     </footer>
 </body>
 </html>

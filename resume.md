@@ -50,7 +50,8 @@ Built interactive dashboard for evaluating and comparing strategy performance me
 - Built statistical validation tools for time-series analysis with automated reporting
 - Created interactive dashboards for trading strategy performance evaluation
 - Developed data pipelines for cleaning, transforming, and validating market data from API sources
-- Technologies: Python (pandas, NumPy), SQL, data visualization, statistical analysis
+- Built the first open-source JavaScript replication of the 1994 WRR Bible Codes experiment — 11-tool browser-based platform processing 304K Hebrew letters with Web Workers, compressed data pipeline (630MB→21MB), and permutation testing (P = 0.0012)
+- Technologies: Python (pandas, NumPy), SQL, JavaScript, Web Workers, data visualization, statistical analysis
 
 ### Founder & CTO | Peoples' FinTech LLC | Los Angeles, CA | 2017–2020
 
@@ -83,7 +84,7 @@ Zbaida, A., et al. "Series Elastic Fiber Damage in Stunned Myocardium." *America
 
 ## Open Source
 
-**Hebrew Bible Analysis Suite:** 11-tool computational analysis platform — 304K letters, Web Workers, 3D visualization, WRR replication ([Live](https://bible-codes.github.io/) | [GitHub](https://github.com/bible-codes/bible-codes.github.io))
+**Hebrew Bible Analysis Suite:** First open-source JS replication of the 1994 WRR experiment — 11 tools, 304K letters, Web Workers, KMP+Boyer-Moore search, Three.js 3D visualization, compressed data pipeline (630MB→21MB), PWA. Zero npm packages, zero build steps. P = 0.0012 with transparent methodology. ([Live](https://bible-codes.github.io/) | [GitHub](https://github.com/bible-codes/bible-codes.github.io))
 **Expectancy Calculator:** Strategy performance evaluation tool ([Live](https://roni762583.github.io/peoplesfintech.github.io/ec.html))
 **Market Data Statistical Analysis:** Statistical research on forex data ([GitHub](https://github.com/roni762583/edgefindingexperiment))
 **Automated Strategy Analysis:** Performance evaluation with genetic optimization ([GitHub](https://github.com/roni762583/oanda_neat/))

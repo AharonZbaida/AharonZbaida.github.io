@@ -30,8 +30,10 @@ Data Analyst | Financial & Operational Data | SQL • Python • Tableau | Remot
 Add these items to showcase breadth without diluting main message:
 1. **Resume PDF** - Upload resume.pdf
 2. **Full Portfolio** - Link to aharonzbaida.github.io/portfolio-full.html
-3. **Expectancy Calculator** - Link to live demo (dashboard showcase)
-4. **Market Data Statistical Analysis** - Link to GitHub repo (analytical rigor showcase)
+3. **Hebrew Bible Analysis Suite** - Link to bible-codes.github.io (first open-source WRR replication — flagship engineering showcase)
+4. **LinkedIn Post: Bible Codes** - Post from linkedin-post-bible-codes.md (technical depth + scientific rigor showcase)
+5. **Expectancy Calculator** - Link to live demo (dashboard showcase)
+6. **Market Data Statistical Analysis** - Link to GitHub repo (analytical rigor showcase)
 
 ### Skills Section
 **Priority Order (First 10 are most visible):**
@@ -89,8 +91,9 @@ Data analysis and research focused on financial datasets and statistical validat
 • Built statistical validation tools for time-series analysis with automated reporting
 • Created interactive dashboards for trading strategy performance evaluation
 • Developed data pipelines for cleaning, transforming, and validating market data from API sources
+• Built the first open-source JavaScript replication of the 1994 WRR Bible Codes experiment — 11-tool browser platform, 304K Hebrew letters, Web Workers, compressed data pipeline (630MB→21MB), permutation testing (P = 0.0012)
 
-Technologies: Python (pandas, NumPy), SQL, data visualization, statistical analysis
+Technologies: Python (pandas, NumPy), SQL, JavaScript, Web Workers, data visualization, statistical analysis
 
 #### Peoples' FinTech LLC (2017–2020)
 **Title on LinkedIn:** Founder & CTO
