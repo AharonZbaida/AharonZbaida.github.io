@@ -5,7 +5,7 @@
 
 ## Data Analyst – Financial & Operational Data | Remote
 
-Data analyst with 15+ years working with structured data in financial services, construction operations, and R&D environments. Combines deep SQL and Python skills with domain expertise in financial analysis, project cost management, and regulatory reporting. Experienced working independently and leading data-driven decision-making in resource-constrained settings.
+Data analyst with 18+ years of hands-on operational data experience — budgets, cost tracking, variance analysis, procurement, and compliance reporting across construction, financial services, and R&D. This deep domain knowledge, combined with strong SQL and Python skills, sets me apart from candidates who've only seen operational data in textbooks. I build reproducible analysis workflows, interactive dashboards, and statistical validation tools that turn complex datasets into clear, actionable insights.
 
 ## Skills
 
@@ -13,7 +13,7 @@ Data analyst with 15+ years working with structured data in financial services, 
 **Visualization & BI:** Tableau, data dashboards, Chart.js, reporting & presentation
 **Statistical Analysis:** Hypothesis testing, A/B analysis, bootstrap methods, trend analysis, regression
 **Data & Systems:** Data pipelines, data cleaning & validation, ETL processes, CSV/JSON/API data sources
-**Domain:** Financial data analysis, cost analysis, project budgeting, regulatory compliance reporting
+**Domain:** Financial data analysis, construction cost data, procurement analytics, project budget tracking, operational reporting, regulatory compliance
 
 ## Selected Data Analysis Projects
 
@@ -62,10 +62,11 @@ Built interactive dashboard for evaluating and comparing strategy performance me
 
 ### Construction Operations & Cost Analysis | Anitani LLC / Zbaida LLC | NJ | 2002–2020
 
-- Managed project budgets, cost tracking, and financial reporting for residential and commercial construction projects over 18 years
-- Created estimates, procurement schedules, and progress reports using spreadsheets and project management tools
-- Tracked costs across concurrent project phases; produced variance analysis and budget-vs-actual reports
-- Skills: Cost estimation, budget analysis, financial reporting, scheduling, regulatory compliance documentation
+- Managed project financial data and reporting for residential and commercial construction over 18+ years — the operational data experience that grounds my analytical work
+- Tracked cost data across 3–5 concurrent project phases; produced budget-vs-actual reports and variance analysis for stakeholders
+- Built and maintained project budgets ($50K–$500K+), procurement schedules, and cost estimates in spreadsheet models
+- Delivered projects on-time and within budget with zero safety incidents across two decades of operations
+- Skills: Construction cost data, budget-vs-actual analysis, procurement data management, variance analysis, scheduling, compliance reporting
 
 ### Earlier Roles | 2003–2016
 
