@@ -5,7 +5,7 @@
 
 ## Data Analyst – Financial & Operational Data | Remote
 
-Data analyst with 18+ years of hands-on operational data experience — budgets, cost tracking, variance analysis, procurement, and compliance reporting across construction, financial services, and R&D. This deep domain knowledge, combined with strong SQL and Python skills, sets me apart from candidates who've only seen operational data in textbooks. I build reproducible analysis workflows, interactive dashboards, and statistical validation tools that turn complex datasets into clear, actionable insights.
+Data analyst with 18+ years of operational experience in construction project management — budgets, cost tracking, procurement, and financial reporting — combined with strong SQL and Python skills across financial services and R&D. I build reproducible analysis workflows, interactive dashboards, and statistical validation tools that turn complex datasets into clear, actionable insights.
 
 ## Skills
 
@@ -62,11 +62,11 @@ Built interactive dashboard for evaluating and comparing strategy performance me
 
 ### Construction Operations & Cost Analysis | Anitani LLC / Zbaida LLC | NJ | 2002–2020
 
-- Managed project financial data and reporting for residential and commercial construction over 18+ years — the operational data experience that grounds my analytical work
-- Tracked cost data across 3–5 concurrent project phases; produced budget-vs-actual reports and variance analysis for stakeholders
-- Built and maintained project budgets ($50K–$500K+), procurement schedules, and cost estimates in spreadsheet models
-- Delivered projects on-time and within budget with zero safety incidents across two decades of operations
-- Skills: Construction cost data, budget-vs-actual analysis, procurement data management, variance analysis, scheduling, compliance reporting
+- Managed project budgets, cost tracking, and financial reporting for residential and commercial construction over 18+ years
+- Tracked costs across concurrent project phases; produced budget-vs-actual reports for project stakeholders
+- Built and maintained project budgets, procurement schedules, and cost estimates using spreadsheets and project management tools
+- Delivered projects on-time and within budget with zero safety incidents
+- Skills: Cost estimation, budget tracking, procurement, scheduling, financial reporting, compliance documentation
 
 ### Earlier Roles | 2003–2016
 

@@ -2,15 +2,15 @@
 
 ## Recommended Text (Copy & Paste to LinkedIn)
 
-I analyze structured data to support business decisions — with particular depth in operational and financial data from 18+ years in construction project management. My focus is on SQL-driven analysis, clear data visualization, and turning complex datasets into actionable insights. That construction background isn't a footnote — it's 18+ years of real budgets, real variance analysis, and real compliance reporting that most data analysts have never touched.
+I analyze structured data to support business decisions — with particular depth in operational and financial data from 18+ years in construction project management. My focus is on SQL-driven analysis, clear data visualization, and turning complex datasets into actionable insights.
 
 My technical toolkit includes SQL (PostgreSQL, DuckDB), Python (pandas, NumPy), Tableau, Excel, and statistical analysis methods. I've built interactive dashboards, automated data pipelines, and analysis reports across financial services, construction operations, and R&D.
 
-Over that time I've worked with financial market data (224K+ records across 24 instruments), managed project budgets ($50K–$500K+) with cost tracking across concurrent phases, and collected R&D laboratory data. I build reproducible analysis workflows, create dashboards for stakeholder reporting, and apply statistical rigor to ensure findings are trustworthy — including honest reporting when the data doesn't support a hypothesis.
+Over that time I've worked with financial market data (224K+ records across 24 instruments), managed construction project budgets and cost tracking across concurrent phases, and collected R&D laboratory data. I build reproducible analysis workflows, create dashboards for stakeholder reporting, and apply statistical rigor to ensure findings are trustworthy — including honest reporting when the data doesn't support a hypothesis.
 
-My background also includes materials science R&D and biomedical engineering research (published in American Journal of Hypertension). This cross-domain experience gives me strong analytical instincts and the ability to communicate findings to both technical and non-technical stakeholders.
+My background also includes materials science R&D and biomedical engineering research (published in American Journal of Hypertension). This cross-domain experience helps me communicate findings to both technical and non-technical stakeholders.
 
-Currently seeking remote Data Analyst opportunities, particularly in financial services, construction technology, insurance, or any organization that values deep analytical skills paired with real-world operational data experience. Open to full-time, contract, and consulting engagements.
+Currently seeking remote Data Analyst opportunities, particularly in financial services, construction technology, insurance, or any organization that values analytical skills and cross-domain experience. Open to full-time, contract, and consulting engagements.
 
 ---
 
@@ -113,12 +113,12 @@ Technologies: Python, SQL, data pipelines, dashboard development
 **Description:**
 Managed project financial data and reporting for residential and commercial construction over 18+ years — the operational data experience that grounds my analytical work.
 
-• Tracked cost data across 3–5 concurrent project phases; produced budget-vs-actual reports and variance analysis for stakeholders
+• Tracked cost data across concurrent project phases; produced budget-vs-actual reports for stakeholders
 • Built and maintained project budgets ($50K–$500K+), procurement schedules, and cost estimates in spreadsheet models
 • Delivered projects on-time and within budget with zero safety incidents across two decades of operations
 • Prepared compliance documentation and regulatory reporting for municipal and state agencies
 
-Skills: Construction cost data, budget-vs-actual analysis, procurement data management, variance analysis, scheduling, compliance reporting
+Skills: Cost estimation, budget tracking, procurement, scheduling, financial reporting, compliance documentation
 
 ---
 
@@ -188,12 +188,12 @@ Skills: Construction cost data, budget-vs-actual analysis, procurement data mana
 
 **Key narrative points for interviews:**
 - "I've always been a data person — even in construction, I was the one building the spreadsheets, tracking costs, and analyzing project performance"
-- "My 18 years in construction gave me real-world experience with operational data — budgets, schedules, cost variance — that most data analysts only see in textbooks"
+- "My 18 years in construction gave me hands-on experience managing budgets, schedules, and financial reporting"
 - "I made a deliberate transition to focus fully on data analysis, and I bring a unique combination of technical skills and domain knowledge"
 
 ### Industries Where the Gap Becomes a Strength
 
-1. **PropTech / Construction Tech** — "I have 18 years of construction data experience that no bootcamp grad can match"
+1. **PropTech / Construction Tech** — "I have 18 years of hands-on construction project management experience"
 2. **FinTech** — "I've analyzed hundreds of thousands of financial records with statistical rigor"
 3. **Insurance** — "I understand risk, cost estimation, and regulatory compliance from both the data and operations side"
 4. **Real Estate** — "I've managed property projects and understand the financial data behind real estate operations"
